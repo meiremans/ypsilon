@@ -22,5 +22,13 @@
     "HTTPStatus" : 403,
     "details" : [],
     "innererror" : {}
+  },
+  "Unauthorized" : {
+    "code" : "Unauthorized",
+    "message" : "You are not authorized",
+    "target" : "",
+    "HTTPStatus" : 401,
+    "details" : [],
+    "innererror" : {}
   }
 }
