@@ -1,34 +1,52 @@
 {
-  "ResourceNotFound" : {
-    "code" : "ResourceNotFound",
-    "message" : "Resource Not Found",
-    "target" : "",
-    "HTTPStatus" : 404,
-    "details" : [],
-    "innererror" : {}
+  "BadRequest": {
+    "code": "BadRequest",
+    "message": "Sorry, but you send something that we cannot understand. Maybe want to check out the API docs?",
+    "HTTPStatus": 400
   },
-  "Forbidden" : {
-    "code" : "Forbidden",
-    "message" : "Resource is Forbidden",
-    "target" : "",
-    "HTTPStatus" : 403,
-    "details" : [],
-    "innererror" : {}
+  "Unauthorized": {
+    "code": "Unauthorized",
+    "message": "You are not authorized",
+    "HTTPStatus": 401
   },
-  "QuotaExceeded" : {
-    "code" : "QuotaExceeded",
-    "message" : "You are over your Quota Limit",
-    "target" : "",
-    "HTTPStatus" : 403,
-    "details" : [],
-    "innererror" : {}
+  "Forbidden": {
+    "code": "Forbidden",
+    "message": "Resource is Forbidden",
+    "HTTPStatus": 403
   },
-  "Unauthorized" : {
-    "code" : "Unauthorized",
-    "message" : "You are not authorized",
-    "target" : "",
-    "HTTPStatus" : 401,
-    "details" : [],
-    "innererror" : {}
+  "ResourceNotFound": {
+    "code": "ResourceNotFound",
+    "message": "Resource Not Found",
+    "HTTPStatus": 404
+  },
+  "Gone": {
+    "code": "Gone",
+    "message": "We are sorry to inform you that the resource has been turned off, please read the docs for a new version",
+    "HTTPStatus": 410
+  },
+  "TooManyRequests": {
+    "code": "TooManyRequests",
+    "message": "You are over your Quota Limit",
+    "HTTPStatus": 429
+  },
+  "InternalServerError": {
+    "code": "InternalServerError",
+    "message": "Internal Server Error, We are sorry",
+    "HTTPStatus": 500
+  },
+  "BadGateway": {
+    "code": "BadGateway",
+    "message": "we are currently upgrading/maintaining our servers. Come again later",
+    "HTTPStatus": 502
+  },
+  "ServiceUnavailable": {
+    "code": "ServiceUnavailable",
+    "message": "We are overloaded. Please try again later",
+    "HTTPStatus": 503
+  },
+  "GatewayTimeout": {
+    "code": "GatewayTimeout",
+    "message": "There has happened an error in our stack, try again please",
+    "HTTPStatus": 504
   }
 }
