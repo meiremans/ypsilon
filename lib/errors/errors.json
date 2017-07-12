@@ -1,0 +1,26 @@
+{
+  "ResourceNotFound" : {
+    "code" : "ResourceNotFound",
+    "message" : "Resource Not Found",
+    "target" : "",
+    "HTTPStatus" : 404,
+    "details" : [],
+    "innererror" : {}
+  },
+  "Forbidden" : {
+    "code" : "Forbidden",
+    "message" : "Resource is Forbidden",
+    "target" : "",
+    "HTTPStatus" : 403,
+    "details" : [],
+    "innererror" : {}
+  },
+  "QuotaExceeded" : {
+    "code" : "QuotaExceeded",
+    "message" : "You are over your Quota Limit",
+    "target" : "",
+    "HTTPStatus" : 403,
+    "details" : [],
+    "innererror" : {}
+  }
+}
