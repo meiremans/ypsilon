@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="edits for errorHandling">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/middlewares/error-handler.js" afterPath="$PROJECT_DIR$/lib/middlewares/error-handler.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/middlewares/main.js" afterPath="$PROJECT_DIR$/lib/middlewares/main.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error-handler.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="error-handler.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/middlewares/error-handler.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/middlewares/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -146,8 +145,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/middlewares/index.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/lib/middlewares/main.js" />
         <option value="$PROJECT_DIR$/lib/middlewares/error-handler.js" />
+        <option value="$PROJECT_DIR$/lib/middlewares/main.js" />
       </list>
     </option>
   </component>
@@ -376,7 +375,7 @@
       <workItem from="1499450000965" duration="2779000" />
       <workItem from="1499869721658" duration="6523000" />
       <workItem from="1499886788948" duration="3737000" />
-      <workItem from="1499935268969" duration="2912000" />
+      <workItem from="1499935268969" duration="3347000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1499872158810</created>
@@ -434,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499939043860</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="edits for errorHandling">
+      <created>1499939601940</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1499939601940</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20220000" />
+    <option name="totallyTimeSpent" value="20655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -485,7 +491,8 @@
     <MESSAGE value="added all errorcodes for ypsilon" />
     <MESSAGE value="add middlewares: main &amp; error-handler" />
     <MESSAGE value="added temp logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="added temp logging" />
+    <MESSAGE value="edits for errorHandling" />
+    <option name="LAST_COMMIT_MESSAGE" value="edits for errorHandling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -670,14 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middlewares/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -686,18 +685,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middlewares/main.js">
+    <entry file="file://$PROJECT_DIR$/lib/middlewares/error-handler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middlewares/error-handler.js">
+    <entry file="file://$PROJECT_DIR$/lib/middlewares/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/middlewares/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>
