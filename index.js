@@ -1,9 +1,11 @@
 let Logger = require('./lib/logger/logger');
 let Errors = require('./lib/errors/errors');
-let Middlewares = require('./lib/middlewares');
+let ErrorHandler = require('./lib/middlewares/error-handler');
+let Main = require('./lib/middlewares/main');
 
 module.exports = {
     Logger,
     Errors,
-    Middlewares
+    ErrorHandler,
+    Main
 };
