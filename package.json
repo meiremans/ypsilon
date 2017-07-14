@@ -8,5 +8,8 @@
     "uuid": "^3.1.0",
     "winston": "^2.3.1",
     "winston-papertrail": "^1.0.5"
+  },
+  "scripts" : {
+    "lint": "node_modules/.bin/eslint server/**/*.js"
   }
 }
