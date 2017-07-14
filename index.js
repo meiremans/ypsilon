@@ -5,11 +5,20 @@ let main = require('./lib/middlewares/main');
 let request = require('./lib/request/json');
 let mongo = require('./lib/services/mongo/database');
 
+/*
+the ypsilon internal calls
+ */
+let userService = require('./lib/services/ypsilon/users');
+
+
+
+
 module.exports = {
     logger,
     errors,
     errorHandler,
     main,
     request,
-    mongo
+    mongo,
+    userService
 };
