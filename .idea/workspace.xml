@@ -393,7 +393,7 @@
       <workItem from="1499869721658" duration="6523000" />
       <workItem from="1499886788948" duration="3737000" />
       <workItem from="1499935268969" duration="4700000" />
-      <workItem from="1500038439649" duration="12128000" />
+      <workItem from="1500038439649" duration="12197000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1499872158810</created>
@@ -605,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500060854906</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="update to use new mongoclient">
+      <created>1500061061599</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1500061061599</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34136000" />
+    <option name="totallyTimeSpent" value="34205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -672,7 +679,8 @@
     <MESSAGE value="added mongo connection" />
     <MESSAGE value="point to right config file" />
     <MESSAGE value="uncapitalize functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="uncapitalize functions" />
+    <MESSAGE value="update to use new mongoclient" />
+    <option name="LAST_COMMIT_MESSAGE" value="update to use new mongoclient" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
