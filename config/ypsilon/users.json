@@ -1,0 +1,7 @@
+{
+  "uri" : "http://localhost:8084/api/",
+  "endpoints" :{
+    "exchangeSecret" : "exchangeSecret",
+    "validateToken" : "verify"
+  }
+}
