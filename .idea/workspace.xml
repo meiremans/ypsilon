@@ -47,8 +47,8 @@
       <file leaf-file-name="errors.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/errors/errors.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+            <state relative-caret-position="425">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -399,7 +399,7 @@
       <workItem from="1499869721658" duration="6523000" />
       <workItem from="1499886788948" duration="3737000" />
       <workItem from="1499935268969" duration="4700000" />
-      <workItem from="1500038439649" duration="12759000" />
+      <workItem from="1500038439649" duration="12843000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1499872158810</created>
@@ -632,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500061228328</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add options correctly to error">
+      <created>1500061696108</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1500061696108</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34767000" />
+    <option name="totallyTimeSpent" value="34851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -701,7 +708,8 @@
     <MESSAGE value="uncapitalize functions" />
     <MESSAGE value="update to use new mongoclient" />
     <MESSAGE value="update to camelCase" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to camelCase" />
+    <MESSAGE value="add options correctly to error" />
+    <option name="LAST_COMMIT_MESSAGE" value="add options correctly to error" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1040,8 +1048,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/errors/errors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="80" column="23" lean-forward="false" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+        <state relative-caret-position="425">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
           <folding />
         </state>
       </provider>
