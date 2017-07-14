@@ -4,7 +4,6 @@
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/request/json.js" afterPath="$PROJECT_DIR$/lib/request/json.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/users.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/lib/request/json.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -162,8 +161,8 @@
         <option value="$PROJECT_DIR$/lib/errors/errors.js" />
         <option value="$PROJECT_DIR$/config/ypsilon/users.json" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/lib/request/json.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
+        <option value="$PROJECT_DIR$/lib/request/json.js" />
       </list>
     </option>
   </component>
@@ -430,7 +429,7 @@
       <workItem from="1499869721658" duration="6523000" />
       <workItem from="1499886788948" duration="3737000" />
       <workItem from="1499935268969" duration="4700000" />
-      <workItem from="1500038439649" duration="18669000" />
+      <workItem from="1500038439649" duration="18809000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1499872158810</created>
@@ -712,11 +711,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500066950163</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="return result as promise">
+      <created>1500068530500</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1500068530500</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40677000" />
+    <option name="totallyTimeSpent" value="40817000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -757,7 +763,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added temp logging" />
     <MESSAGE value="edits for errorHandling" />
     <MESSAGE value="put status in content" />
     <MESSAGE value="put status as sideobject" />
@@ -782,7 +787,8 @@
     <MESSAGE value="changed authentication to Authorization" />
     <MESSAGE value="log" />
     <MESSAGE value="return result" />
-    <option name="LAST_COMMIT_MESSAGE" value="return result" />
+    <MESSAGE value="return result as promise" />
+    <option name="LAST_COMMIT_MESSAGE" value="return result as promise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1130,7 +1136,7 @@
     <entry file="file://$PROJECT_DIR$/lib/request/json.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
           <folding />
         </state>
       </provider>
