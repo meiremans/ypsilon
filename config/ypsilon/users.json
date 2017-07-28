@@ -1,5 +1,5 @@
 {
-  "uri" : "http://users.api.ypsilon.club:8084/api/",
+  "uri" : "http://users.api.ypsilon.club:80/api/",
   "endpoints" :{
     "exchangeSecret" : "exchangeSecret",
     "validateToken" : "verify"
