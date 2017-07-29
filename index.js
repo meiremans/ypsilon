@@ -7,6 +7,7 @@ let mongo = require('./lib/services/mongo/database');
 let middlewares = require('./lib/middlewares');
 let auth = require('./lib/middlewares/auth');
 let schema = require('./lib/mom/schema');
+let init = require('./lib/server/start');
 
 /*
 the ypsilon internal calls
@@ -17,6 +18,7 @@ let userService = require('./lib/services/ypsilon/users');
 
 
 module.exports = {
+    init,
     auth,
     middlewares,
     logger,
