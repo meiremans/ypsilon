@@ -31,10 +31,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/mom/schema.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/middlewares/auth.js" afterPath="$PROJECT_DIR$/lib/middlewares/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/mom/schema.js" afterPath="$PROJECT_DIR$/lib/mom/schema.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,7 +43,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="476">
@@ -119,17 +117,17 @@
         <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="schema.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/mom/schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="535">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -194,8 +192,8 @@
         <option value="$PROJECT_DIR$/config/ypsilon/users.json" />
         <option value="$PROJECT_DIR$/lib/services/mongo/database.js" />
         <option value="$PROJECT_DIR$/lib/middlewares/auth.js" />
-        <option value="$PROJECT_DIR$/lib/mom/schema.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/lib/mom/schema.js" />
       </list>
     </option>
   </component>
@@ -436,14 +434,7 @@
       <workItem from="1500418549583" duration="308000" />
       <workItem from="1501241297961" duration="2433000" />
       <workItem from="1501254933928" duration="4012000" />
-      <workItem from="1501308616136" duration="3379000" />
-    </task>
-    <task id="LOCAL-00004" summary="moved index">
-      <created>1499877467142</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1499877467142</updated>
+      <workItem from="1501308616136" duration="5586000" />
     </task>
     <task id="LOCAL-00005" summary="added all errorcodes for ypsilon">
       <created>1499896898893</created>
@@ -781,11 +772,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501263040202</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add baseplate for mongoose models">
+      <created>1501314937095</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1501314937095</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56641000" />
+    <option name="totallyTimeSpent" value="58848000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -827,7 +825,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add request id's to track request between services" />
     <MESSAGE value="changed headers to match other headers" />
     <MESSAGE value="added papertrail to logger" />
     <MESSAGE value="add module to perform http requests" />
@@ -852,7 +849,8 @@
     <MESSAGE value="export auth serpatly" />
     <MESSAGE value="implemented tokenvalidation" />
     <MESSAGE value="added param to give db name" />
-    <option name="LAST_COMMIT_MESSAGE" value="added param to give db name" />
+    <MESSAGE value="add baseplate for mongoose models" />
+    <option name="LAST_COMMIT_MESSAGE" value="add baseplate for mongoose models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1203,15 +1201,7 @@
     <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/mom/schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1236,6 +1226,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="10" lean-forward="false" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/mom/schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
