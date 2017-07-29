@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="501">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -435,14 +435,7 @@
       <workItem from="1500418549583" duration="308000" />
       <workItem from="1501241297961" duration="2433000" />
       <workItem from="1501254933928" duration="4012000" />
-      <workItem from="1501308616136" duration="8510000" />
-    </task>
-    <task id="LOCAL-00008" summary="added temp logging">
-      <created>1499939043860</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1499939043860</updated>
+      <workItem from="1501308616136" duration="9810000" />
     </task>
     <task id="LOCAL-00009" summary="edits for errorHandling">
       <created>1499939601940</created>
@@ -780,11 +773,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501337718538</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="fixed forgotten path">
+      <created>1501337845539</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1501337845539</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61772000" />
+    <option name="totallyTimeSpent" value="63072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -826,7 +826,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed console.log" />
     <MESSAGE value="fixed module.exports" />
     <MESSAGE value="added mongo connection" />
     <MESSAGE value="point to right config file" />
@@ -851,7 +850,8 @@
     <MESSAGE value="ypsilon MOM now supports to add prehooks" />
     <MESSAGE value="fixed bug to connect to right Database" />
     <MESSAGE value="added init function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added init function" />
+    <MESSAGE value="fixed forgotten path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed forgotten path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1235,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="501">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding />
         </state>
       </provider>
