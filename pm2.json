@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "users",
+      "script": "npm",
+      "args" : "start",
+      "env": {
+        "NODE_ENV": "dev",
+        "pm2_home" : "/opt/pm2/"
+      }
+    }
+  ]
+}
