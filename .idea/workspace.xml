@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            <state relative-caret-position="342">
+              <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -443,14 +443,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="2823000" />
-    </task>
-    <task id="LOCAL-00016" summary="wrap in content">
-      <created>1500043325931</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1500043325931</updated>
+      <workItem from="1501596911660" duration="3235000" />
     </task>
     <task id="LOCAL-00017" summary="unwrap in content">
       <created>1500043508184</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501599378722</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="added logging for current dir">
+      <created>1501599744893</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1501599744893</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72190000" />
+    <option name="totallyTimeSpent" value="72602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -834,7 +834,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add function to check access token" />
     <MESSAGE value="commit previously uncomitted file" />
     <MESSAGE value="changed authentication to Authorization" />
     <MESSAGE value="log" />
@@ -859,7 +858,8 @@
     <MESSAGE value="changed forgotten var" />
     <MESSAGE value="removed -v option" />
     <MESSAGE value="added -f option" />
-    <option name="LAST_COMMIT_MESSAGE" value="added -f option" />
+    <MESSAGE value="added logging for current dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="added logging for current dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1243,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="42" column="46" lean-forward="false" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        <state relative-caret-position="342">
+          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
           <folding />
         </state>
       </provider>
