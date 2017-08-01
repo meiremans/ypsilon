@@ -1,4 +1,4 @@
-const ypsilonrc = require('./../../.ypsilonrc');
+const ypsilonrc = require('./../../.ypsilonrc.json');
 
 function pm2 (){
     let config = JSON.parse(ypsilonrc);
