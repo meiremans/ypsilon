@@ -5,7 +5,7 @@ function pm2 (){
     return  {
         apps : [{
             name: config.name,
-            script: "./../../server",
+            script: "./../../server/index.js",
             args: "",
             env: {
                 "NODE_ENV": "development",
