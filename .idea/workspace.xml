@@ -76,8 +76,8 @@
       <file leaf-file-name="ecosystem.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -436,14 +436,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="8601000" />
-    </task>
-    <task id="LOCAL-00028" summary="added mongo connection">
-      <created>1500060414400</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1500060414400</updated>
+      <workItem from="1501596911660" duration="8688000" />
     </task>
     <task id="LOCAL-00029" summary="point to right config file">
       <created>1500060571699</created>
@@ -781,11 +774,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501609203329</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="workaround npm start as this issue is not yet merged into pm2 release">
+      <created>1501609611771</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1501609611771</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77968000" />
+    <option name="totallyTimeSpent" value="78055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -827,7 +827,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added param to give db name" />
     <MESSAGE value="add baseplate for mongoose models" />
     <MESSAGE value="ypsilon MOM now supports to add prehooks" />
     <MESSAGE value="fixed bug to connect to right Database" />
@@ -852,7 +851,8 @@
     <MESSAGE value="removed name" />
     <MESSAGE value="change working dir" />
     <MESSAGE value="removed /" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed /" />
+    <MESSAGE value="workaround npm start as this issue is not yet merged into pm2 release" />
+    <option name="LAST_COMMIT_MESSAGE" value="workaround npm start as this issue is not yet merged into pm2 release" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1234,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding />
         </state>
       </provider>

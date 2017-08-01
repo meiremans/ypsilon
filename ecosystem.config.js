@@ -4,9 +4,8 @@ function pm2 (){
     let config = JSON.parse(ypsilonrc);
     return  {
         apps : [{
-            cwd :"",
             name: config.name,
-            script: "./../server",
+            script: "./../../server",
             args: "",
             env: {
                 "NODE_ENV": "development",
