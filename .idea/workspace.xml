@@ -46,8 +46,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+            <state relative-caret-position="495">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
       <file leaf-file-name="createnginxsite.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -443,14 +443,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="1589000" />
-    </task>
-    <task id="LOCAL-00013" summary="edits for errorHandling">
-      <created>1499940342339</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1499940342339</updated>
+      <workItem from="1501596911660" duration="2084000" />
     </task>
     <task id="LOCAL-00014" summary="put status in content">
       <created>1500041582665</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501598332534</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="changed forgotten var">
+      <created>1501598518080</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1501598518080</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70956000" />
+    <option name="totallyTimeSpent" value="71451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -834,7 +834,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update to use new mongoclient" />
     <MESSAGE value="update to camelCase" />
     <MESSAGE value="add options correctly to error" />
     <MESSAGE value="add function to check access token" />
@@ -859,7 +858,8 @@
     <MESSAGE value="added nginx auto configurator when running npm run nginx" />
     <MESSAGE value="change script to provision" />
     <MESSAGE value="added script in init" />
-    <option name="LAST_COMMIT_MESSAGE" value="added script in init" />
+    <MESSAGE value="changed forgotten var" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed forgotten var" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1191,14 +1191,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/__template__">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1233,18 +1225,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="340">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
+        <state relative-caret-position="495">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
