@@ -4,10 +4,10 @@ function pm2 (){
     let config = JSON.parse(ypsilonrc);
     return  {
         apps : [{
+            cwd :"./../../",
             name: config.name,
             script: "npm",
             args: "start",
-            watch: false,
             env: {
                 "NODE_ENV": "development",
             },
