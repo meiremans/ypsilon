@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="399">
+              <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <marker date="1501598044052" expanded="true" signature="531:536" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
               </folding>
@@ -443,14 +443,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="1408000" />
-    </task>
-    <task id="LOCAL-00012" summary="edits for errorHandling">
-      <created>1499940246497</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1499940246497</updated>
+      <workItem from="1501596911660" duration="1589000" />
     </task>
     <task id="LOCAL-00013" summary="edits for errorHandling">
       <created>1499940342339</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501598052169</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="added script in init">
+      <created>1501598332533</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1501598332534</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70775000" />
+    <option name="totallyTimeSpent" value="70956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -834,7 +834,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="uncapitalize functions" />
     <MESSAGE value="update to use new mongoclient" />
     <MESSAGE value="update to camelCase" />
     <MESSAGE value="add options correctly to error" />
@@ -859,7 +858,8 @@
     <MESSAGE value="export init" />
     <MESSAGE value="added nginx auto configurator when running npm run nginx" />
     <MESSAGE value="change script to provision" />
-    <option name="LAST_COMMIT_MESSAGE" value="change script to provision" />
+    <MESSAGE value="added script in init" />
+    <option name="LAST_COMMIT_MESSAGE" value="added script in init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1210,7 +1210,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <marker date="1501598044052" expanded="true" signature="531:536" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
           </folding>
@@ -1243,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="399">
+          <caret line="51" column="60" lean-forward="false" selection-start-line="51" selection-start-column="60" selection-end-line="51" selection-end-column="60" />
           <folding />
         </state>
       </provider>
