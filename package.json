@@ -15,7 +15,7 @@
   },
   "scripts": {
     "lint": "node_modules/.bin/eslint server/**/*.js",
-    "nginx": "nginx/createnginxsite.sh"
+    "provision": "nginx/createnginxsite.sh"
   },
   "devDependencies": {
     "chai": "^4.1.0",
