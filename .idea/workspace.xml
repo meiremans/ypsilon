@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="291">
+              <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -443,14 +443,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="2084000" />
-    </task>
-    <task id="LOCAL-00014" summary="put status in content">
-      <created>1500041582665</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1500041582665</updated>
+      <workItem from="1501596911660" duration="2458000" />
     </task>
     <task id="LOCAL-00015" summary="put status as sideobject">
       <created>1500043223041</created>
@@ -788,11 +781,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501598518080</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="removed -v option">
+      <created>1501599005340</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1501599005340</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71451000" />
+    <option name="totallyTimeSpent" value="71825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -834,7 +834,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update to camelCase" />
     <MESSAGE value="add options correctly to error" />
     <MESSAGE value="add function to check access token" />
     <MESSAGE value="commit previously uncomitted file" />
@@ -859,7 +858,8 @@
     <MESSAGE value="change script to provision" />
     <MESSAGE value="added script in init" />
     <MESSAGE value="changed forgotten var" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed forgotten var" />
+    <MESSAGE value="removed -v option" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed -v option" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1243,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state relative-caret-position="291">
+          <caret line="42" column="54" lean-forward="true" selection-start-line="42" selection-start-column="54" selection-end-line="42" selection-end-column="54" />
           <folding />
         </state>
       </provider>
