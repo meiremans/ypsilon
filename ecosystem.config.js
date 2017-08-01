@@ -1,9 +1,10 @@
 const ypsilonrc = require('./../../.ypsilonrc');
 
 function pm2 (){
+    let config = JSON.parse(ypsilonrc);
     let settings = {
         apps : [{
-            name: ypsilonrc.name,
+            name: config.name,
             script: "npm",
             args: "start",
             watch: false,
