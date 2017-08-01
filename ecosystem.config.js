@@ -2,7 +2,7 @@ const ypsilonrc = require('./../../.ypsilonrc.json');
 
 function pm2 (){
     let config = JSON.parse(ypsilonrc);
-    return settings = {
+    return  {
         apps : [{
             name: config.name,
             script: "npm",

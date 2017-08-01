@@ -76,8 +76,8 @@
       <file leaf-file-name="ecosystem.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="289">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -436,14 +436,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="7174000" />
-    </task>
-    <task id="LOCAL-00024" summary="added papertrail to logger">
-      <created>1500052129915</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1500052129915</updated>
+      <workItem from="1501596911660" duration="7341000" />
     </task>
     <task id="LOCAL-00025" summary="add module to perform http requests">
       <created>1500058432814</created>
@@ -781,11 +774,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501607976444</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="added .json">
+      <created>1501608164322</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1501608164322</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76541000" />
+    <option name="totallyTimeSpent" value="76708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -827,7 +827,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="export middlewares" />
     <MESSAGE value="change default db to ypsilon" />
     <MESSAGE value="export auth serpatly" />
     <MESSAGE value="implemented tokenvalidation" />
@@ -852,7 +851,8 @@
     <MESSAGE value="read name uit of config file" />
     <MESSAGE value="parse JSON" />
     <MESSAGE value="return" />
-    <option name="LAST_COMMIT_MESSAGE" value="return" />
+    <MESSAGE value="added .json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added .json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1234,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>
