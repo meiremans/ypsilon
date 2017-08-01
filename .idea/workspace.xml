@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+            <state relative-caret-position="238">
+              <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -322,6 +322,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.10.3" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -455,14 +456,7 @@
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
       <workItem from="1501596911660" duration="14288000" />
-      <workItem from="1501623299254" duration="2595000" />
-    </task>
-    <task id="LOCAL-00044" summary="return result as ES6 promise">
-      <created>1500303726981</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1500303726981</updated>
+      <workItem from="1501623299254" duration="2917000" />
     </task>
     <task id="LOCAL-00045" summary="add auth middleware">
       <created>1501241945642</created>
@@ -800,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501627316027</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="add a possibility to inject code into app before starting the server">
+      <created>1501627647608</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1501627647608</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86250000" />
+    <option name="totallyTimeSpent" value="86572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -846,7 +847,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed forgotten var" />
     <MESSAGE value="removed -v option" />
     <MESSAGE value="added -f option" />
     <MESSAGE value="added logging for current dir" />
@@ -871,7 +871,8 @@
     <MESSAGE value="addes posibilty to use ejs" />
     <MESSAGE value="limit to 50mb" />
     <MESSAGE value="allow cors" />
-    <option name="LAST_COMMIT_MESSAGE" value="allow cors" />
+    <MESSAGE value="add a possibility to inject code into app before starting the server" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a possibility to inject code into app before starting the server" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1250,8 +1251,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="true" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
