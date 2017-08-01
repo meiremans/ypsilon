@@ -1,22 +1,16 @@
 const ypsilonrc = require('./../../.ypsilonrc.json');
-
-function pm2 (){
-    let config = JSON.parse(ypsilonrc);
-    return  {
-        apps : [{
-            name: config.name,
-            script: "./../../server/index.js",
-            args: "",
-            env: {
-                "NODE_ENV": "development",
-            },
-            env_production: {
-                "NODE_ENV": "production"
-            }
-        }]
-    };
-}
+const script = require('./../../server/index.js');
 
 
-module.exports = pm2;
+module.exports =  {
+    name: ypsilonrc.name,
+    script: "npm",
+    args:"start",
+    env: {
+        "NODE_ENV": "development",
+    },
+    env_production: {
+        "NODE_ENV": "production"
+    }
+};
 
