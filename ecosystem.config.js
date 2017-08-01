@@ -2,7 +2,7 @@ const ypsilonrc = require('./../../.ypsilonrc');
 
 function pm2 (){
     let config = JSON.parse(ypsilonrc);
-    let settings = {
+    return settings = {
         apps : [{
             name: config.name,
             script: "npm",
@@ -15,7 +15,7 @@ function pm2 (){
                 "NODE_ENV": "production"
             }
         }]
-    }
+    };
 }
 
 
