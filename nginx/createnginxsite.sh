@@ -24,4 +24,4 @@ sed -i "s/__PORT__/${PORT}/g" /etc/nginx/sites-available/${DOMAIN}
 
 
 ln -s /etc/nginx/sites-available/${DOMAIN} /etc/nginx/sites-enabled/${DOMAIN}
-/etc/init.d/nginx reload
+sudo /etc/init.d/nginx reload

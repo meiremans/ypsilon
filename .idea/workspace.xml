@@ -32,7 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecosystem.config.js" afterPath="$PROJECT_DIR$/ecosystem.config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/createnginxsite.sh" afterPath="$PROJECT_DIR$/nginx/createnginxsite.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ecosystem.config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ecosystem.config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -83,11 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createnginxsite.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="createnginxsite.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -187,12 +187,12 @@
         <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
         <option value="$PROJECT_DIR$/createnginxsite.sh" />
         <option value="$PROJECT_DIR$/nginx/baseFile" />
-        <option value="$PROJECT_DIR$/nginx/createnginxsite.sh" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/nginx/__template__" />
         <option value="$PROJECT_DIR$/lib/server/start.js" />
         <option value="$PROJECT_DIR$/pm2.json" />
         <option value="$PROJECT_DIR$/ecosystem.config.js" />
+        <option value="$PROJECT_DIR$/nginx/createnginxsite.sh" />
       </list>
     </option>
   </component>
@@ -436,14 +436,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="9747000" />
-    </task>
-    <task id="LOCAL-00031" summary="update to use new mongoclient">
-      <created>1500061061599</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1500061061599</updated>
+      <workItem from="1501596911660" duration="10551000" />
     </task>
     <task id="LOCAL-00032" summary="update to use new mongoclient">
       <created>1500061128973</created>
@@ -781,11 +774,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501609718884</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="fixed npm start command">
+      <created>1501611376558</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1501611376558</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79114000" />
+    <option name="totallyTimeSpent" value="79918000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -827,7 +827,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ypsilon MOM now supports to add prehooks" />
     <MESSAGE value="fixed bug to connect to right Database" />
     <MESSAGE value="added init function" />
     <MESSAGE value="fixed forgotten path" />
@@ -852,7 +851,8 @@
     <MESSAGE value="removed /" />
     <MESSAGE value="workaround npm start as this issue is not yet merged into pm2 release" />
     <MESSAGE value="added index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="added index.js" />
+    <MESSAGE value="fixed npm start command" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed npm start command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1176,14 +1176,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/__template__">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1236,6 +1228,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
