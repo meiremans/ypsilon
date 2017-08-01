@@ -32,7 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/createnginxsite.sh" afterPath="$PROJECT_DIR$/nginx/createnginxsite.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/start.js" afterPath="$PROJECT_DIR$/lib/server/start.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,17 +47,17 @@
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
+            <state relative-caret-position="467">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createnginxsite.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="createnginxsite.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nginx/createnginxsite.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -189,10 +189,10 @@
         <option value="$PROJECT_DIR$/nginx/baseFile" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/nginx/__template__" />
-        <option value="$PROJECT_DIR$/lib/server/start.js" />
         <option value="$PROJECT_DIR$/pm2.json" />
         <option value="$PROJECT_DIR$/ecosystem.config.js" />
         <option value="$PROJECT_DIR$/nginx/createnginxsite.sh" />
+        <option value="$PROJECT_DIR$/lib/server/start.js" />
       </list>
     </option>
   </component>
@@ -436,14 +436,7 @@
       <workItem from="1501254933928" duration="4012000" />
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
-      <workItem from="1501596911660" duration="10551000" />
-    </task>
-    <task id="LOCAL-00032" summary="update to use new mongoclient">
-      <created>1500061128973</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1500061128973</updated>
+      <workItem from="1501596911660" duration="11803000" />
     </task>
     <task id="LOCAL-00033" summary="update to camelCase">
       <created>1500061228328</created>
@@ -781,11 +774,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501611376558</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="add sudo to restart">
+      <created>1501612493463</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1501612493463</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79918000" />
+    <option name="totallyTimeSpent" value="81170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -827,7 +827,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed bug to connect to right Database" />
     <MESSAGE value="added init function" />
     <MESSAGE value="fixed forgotten path" />
     <MESSAGE value="export init" />
@@ -852,7 +851,8 @@
     <MESSAGE value="workaround npm start as this issue is not yet merged into pm2 release" />
     <MESSAGE value="added index.js" />
     <MESSAGE value="fixed npm start command" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed npm start command" />
+    <MESSAGE value="add sudo to restart" />
+    <option name="LAST_COMMIT_MESSAGE" value="add sudo to restart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1184,22 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/server/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pm2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1236,6 +1220,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/server/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding />
         </state>
       </provider>
