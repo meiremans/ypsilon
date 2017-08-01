@@ -56,8 +56,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -453,14 +453,7 @@
       <workItem from="1501308616136" duration="11977000" />
       <workItem from="1501513509115" duration="4128000" />
       <workItem from="1501596911660" duration="14288000" />
-      <workItem from="1501623299254" duration="132000" />
-    </task>
-    <task id="LOCAL-00036" summary="add function to check access token">
-      <created>1500063605264</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1500063605264</updated>
+      <workItem from="1501623299254" duration="207000" />
     </task>
     <task id="LOCAL-00037" summary="commit previously uncomitted file">
       <created>1500063794187</created>
@@ -798,11 +791,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501617315487</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="read name and port out of ypsilonrc">
+      <created>1501623440757</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1501623440757</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83787000" />
+    <option name="totallyTimeSpent" value="83862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -844,7 +844,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="export init" />
     <MESSAGE value="added nginx auto configurator when running npm run nginx" />
     <MESSAGE value="change script to provision" />
     <MESSAGE value="added script in init" />
@@ -869,7 +868,8 @@
     <MESSAGE value="add sudo to restart" />
     <MESSAGE value="check if file exists" />
     <MESSAGE value="removed previous change" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed previous change" />
+    <MESSAGE value="read name and port out of ypsilonrc" />
+    <option name="LAST_COMMIT_MESSAGE" value="read name and port out of ypsilonrc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1240,8 +1240,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="255">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
           <folding />
         </state>
       </provider>
