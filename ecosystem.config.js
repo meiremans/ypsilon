@@ -4,7 +4,7 @@ function pm2 (){
     let config = JSON.parse(ypsilonrc);
     return  {
         apps : [{
-            cwd :"./../../",
+            cwd :"/../../",
             name: config.name,
             script: "npm",
             args: "start",
