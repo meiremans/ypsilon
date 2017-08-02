@@ -33,7 +33,6 @@
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/logger/logger.js" afterPath="$PROJECT_DIR$/lib/logger/logger.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -77,8 +76,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="535">
+              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -428,14 +427,7 @@
       <workItem from="1501513509115" duration="4128000" />
       <workItem from="1501596911660" duration="14288000" />
       <workItem from="1501623299254" duration="4392000" />
-      <workItem from="1501678100615" duration="3137000" />
-    </task>
-    <task id="LOCAL-00050" summary="export auth serpatly">
-      <created>1501244901062</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1501244901063</updated>
+      <workItem from="1501678100615" duration="3680000" />
     </task>
     <task id="LOCAL-00051" summary="implemented tokenvalidation">
       <created>1501258206026</created>
@@ -773,11 +765,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501680301044</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="upgrade to winston2 greylog">
+      <created>1501682340306</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1501682340306</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91184000" />
+    <option name="totallyTimeSpent" value="91727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -819,7 +818,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="replaced sed command" />
     <MESSAGE value="added fqdn" />
     <MESSAGE value="moved pm2config to base library" />
     <MESSAGE value="read name uit of config file" />
@@ -844,7 +842,8 @@
     <MESSAGE value="added greylog of heleos server" />
     <MESSAGE value="removed console.log" />
     <MESSAGE value="update greylog config" />
-    <option name="LAST_COMMIT_MESSAGE" value="update greylog config" />
+    <MESSAGE value="upgrade to winston2 greylog" />
+    <option name="LAST_COMMIT_MESSAGE" value="upgrade to winston2 greylog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1219,8 +1218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="535">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
