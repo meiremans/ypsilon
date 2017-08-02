@@ -32,7 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/logger/logger.js" afterPath="$PROJECT_DIR$/lib/logger/logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/start.js" afterPath="$PROJECT_DIR$/lib/server/start.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +46,18 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="93">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__template__" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx/__template__">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -63,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -83,16 +93,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ecosystem.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/middlewares/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="logger.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="476">
+              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -161,6 +161,7 @@
       <find>httpGet</find>
       <find>errorHandler</find>
       <find>logger.</find>
+      <find>Welcome to the AB-IT API</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,11 +199,11 @@
         <option value="$PROJECT_DIR$/pm2.json" />
         <option value="$PROJECT_DIR$/nginx/createnginxsite.sh" />
         <option value="$PROJECT_DIR$/ecosystem.config.js" />
-        <option value="$PROJECT_DIR$/lib/server/start.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/middlewares/main.js" />
         <option value="$PROJECT_DIR$/node_modules/winston2-graylog2/lib/winston-graylog2.js" />
         <option value="$PROJECT_DIR$/lib/logger/logger.js" />
+        <option value="$PROJECT_DIR$/lib/server/start.js" />
       </list>
     </option>
   </component>
@@ -443,14 +444,7 @@
       <workItem from="1501513509115" duration="4128000" />
       <workItem from="1501596911660" duration="14288000" />
       <workItem from="1501623299254" duration="4392000" />
-      <workItem from="1501678100615" duration="8512000" />
-    </task>
-    <task id="LOCAL-00055" summary="fixed bug to connect to right Database">
-      <created>1501328310909</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1501328310909</updated>
+      <workItem from="1501678100615" duration="9512000" />
     </task>
     <task id="LOCAL-00056" summary="added init function">
       <created>1501337718538</created>
@@ -788,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501696950371</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="added logging at each request">
+      <created>1501697735780</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1501697735780</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96559000" />
+    <option name="totallyTimeSpent" value="97559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -1071,14 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/__template__">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pm2.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1180,22 +1173,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/server/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/mongo/database.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1246,8 +1223,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="476">
+          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/__template__">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/server/start.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding />
         </state>
       </provider>
