@@ -106,8 +106,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -452,14 +452,7 @@
       <workItem from="1501623299254" duration="4392000" />
       <workItem from="1501678100615" duration="10737000" />
       <workItem from="1501704885497" duration="622000" />
-      <workItem from="1501756332688" duration="482000" />
-    </task>
-    <task id="LOCAL-00058" summary="export init">
-      <created>1501340590865</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1501340590865</updated>
+      <workItem from="1501756332688" duration="743000" />
     </task>
     <task id="LOCAL-00059" summary="added nginx auto configurator when running npm run nginx">
       <created>1501597612957</created>
@@ -797,11 +790,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501756616878</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="only log to graylog">
+      <created>1501756821479</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1501756821479</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99888000" />
+    <option name="totallyTimeSpent" value="100149000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -843,7 +843,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="return" />
     <MESSAGE value="added .json" />
     <MESSAGE value="removed name" />
     <MESSAGE value="change working dir" />
@@ -868,7 +867,8 @@
     <MESSAGE value="added logging at each request" />
     <MESSAGE value="removed .api from dev routes" />
     <MESSAGE value="also log to console" />
-    <option name="LAST_COMMIT_MESSAGE" value="also log to console" />
+    <MESSAGE value="only log to graylog" />
+    <option name="LAST_COMMIT_MESSAGE" value="only log to graylog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1249,8 +1249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding />
         </state>
       </provider>
