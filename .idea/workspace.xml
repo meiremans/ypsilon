@@ -46,8 +46,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+            <state relative-caret-position="476">
+              <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -462,14 +462,7 @@
       <workItem from="1501623299254" duration="4392000" />
       <workItem from="1501678100615" duration="10737000" />
       <workItem from="1501704885497" duration="622000" />
-      <workItem from="1501756332688" duration="12548000" />
-    </task>
-    <task id="LOCAL-00076" summary="removed /">
-      <created>1501609203329</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1501609203329</updated>
+      <workItem from="1501756332688" duration="12670000" />
     </task>
     <task id="LOCAL-00077" summary="workaround npm start as this issue is not yet merged into pm2 release">
       <created>1501609611771</created>
@@ -807,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501779609897</updated>
     </task>
-    <option name="localTasksCounter" value="125" />
+    <task id="LOCAL-00125" summary="revert">
+      <created>1501781620435</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1501781620435</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111954000" />
+    <option name="totallyTimeSpent" value="112076000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -1259,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+        <state relative-caret-position="476">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding />
         </state>
       </provider>
