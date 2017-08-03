@@ -66,8 +66,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state relative-caret-position="357">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -460,14 +460,7 @@
       <workItem from="1501623299254" duration="4392000" />
       <workItem from="1501678100615" duration="10737000" />
       <workItem from="1501704885497" duration="622000" />
-      <workItem from="1501756332688" duration="4763000" />
-    </task>
-    <task id="LOCAL-00065" summary="added logging for current dir">
-      <created>1501599744893</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1501599744893</updated>
+      <workItem from="1501756332688" duration="4841000" />
     </task>
     <task id="LOCAL-00066" summary="search template in ypsilon">
       <created>1501600157525</created>
@@ -805,11 +798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501762789536</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="try graylog without winston">
+      <created>1501765846679</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1501765846679</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104169000" />
+    <option name="totallyTimeSpent" value="104247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -851,7 +851,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed /" />
     <MESSAGE value="workaround npm start as this issue is not yet merged into pm2 release" />
     <MESSAGE value="added index.js" />
     <MESSAGE value="fixed npm start command" />
@@ -876,7 +875,8 @@
     <MESSAGE value="removed all from graylog, see if winston works now" />
     <MESSAGE value="added graylog again" />
     <MESSAGE value="try version 1 of winston" />
-    <option name="LAST_COMMIT_MESSAGE" value="try version 1 of winston" />
+    <MESSAGE value="try graylog without winston" />
+    <option name="LAST_COMMIT_MESSAGE" value="try graylog without winston" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1249,8 +1249,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="59" column="26" lean-forward="false" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="357">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
