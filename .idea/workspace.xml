@@ -30,7 +30,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="put outbound id in logging">
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/logger/logger.js" afterPath="$PROJECT_DIR$/lib/logger/logger.js" />
     </list>
@@ -46,8 +46,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="459">
+              <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -462,14 +462,7 @@
       <workItem from="1501623299254" duration="4392000" />
       <workItem from="1501678100615" duration="10737000" />
       <workItem from="1501704885497" duration="622000" />
-      <workItem from="1501756332688" duration="11213000" />
-    </task>
-    <task id="LOCAL-00074" summary="removed name">
-      <created>1501608331753</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1501608331753</updated>
+      <workItem from="1501756332688" duration="11540000" />
     </task>
     <task id="LOCAL-00075" summary="change working dir">
       <created>1501608902439</created>
@@ -807,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501778900213</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="put outbound id in logging">
+      <created>1501779282197</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1501779282197</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110619000" />
+    <option name="totallyTimeSpent" value="110946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -1259,8 +1259,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="459">
+          <caret line="45" column="2" lean-forward="true" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
           <folding />
         </state>
       </provider>
