@@ -46,8 +46,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="476">
+              <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -96,23 +96,6 @@
         </entry>
       </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="99" column="4" lean-forward="false" selection-start-line="99" selection-start-column="4" selection-end-line="99" selection-end-column="4" />
-              <folding>
-                <marker date="1501773222468" expanded="true" signature="0:7174" ph="{&quot;name&quot;: &quot;winston-graylog2&quot;...}" />
-                <marker date="1501773222468" expanded="true" signature="13:61" ph="[...]" />
-                <marker date="1501773222468" expanded="true" signature="19:61" ph="[...]" />
-                <marker date="1501773222468" expanded="true" signature="27:61" ph="{&quot;name&quot;: &quot;winston-graylog2&quot;...}" />
-                <marker date="1501773222468" expanded="true" signature="7018:7107" ph="{&quot;type&quot;: &quot;git&quot;...}" />
-                <marker date="1501773222468" expanded="true" signature="7122:7150" ph="{&quot;test&quot;: &quot;mocha -b&quot;...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/winston2-graylog2/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
@@ -125,8 +108,18 @@
       <file leaf-file-name="winston-graylog2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/lib/winston-graylog2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+            <state relative-caret-position="68">
+              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graylog.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/node_modules/graylog2/graylog.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="152" column="39" lean-forward="false" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -463,14 +456,7 @@
       <workItem from="1501623299254" duration="4392000" />
       <workItem from="1501678100615" duration="10737000" />
       <workItem from="1501704885497" duration="622000" />
-      <workItem from="1501756332688" duration="8501000" />
-    </task>
-    <task id="LOCAL-00070" summary="read name uit of config file">
-      <created>1501607331287</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1501607331287</updated>
+      <workItem from="1501756332688" duration="9329000" />
     </task>
     <task id="LOCAL-00071" summary="parse JSON">
       <created>1501607542520</created>
@@ -808,11 +794,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501773243615</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="added hostname">
+      <created>1501773848197</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1501773848197</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107907000" />
+    <option name="totallyTimeSpent" value="108735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -854,7 +847,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added index.js" />
     <MESSAGE value="fixed npm start command" />
     <MESSAGE value="add sudo to restart" />
     <MESSAGE value="check if file exists" />
@@ -879,21 +871,14 @@
     <MESSAGE value="try version 1 of winston" />
     <MESSAGE value="try graylog without winston" />
     <MESSAGE value="use github fork instead of npm version" />
-    <option name="LAST_COMMIT_MESSAGE" value="use github fork instead of npm version" />
+    <MESSAGE value="added hostname" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hostname" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/middlewares/error-handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/errors/errors.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1232,14 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/lib/winston-graylog2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/winston2-graylog2/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1258,10 +1235,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/lib/winston-graylog2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/node_modules/graylog2/graylog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="152" column="39" lean-forward="false" selection-start-line="152" selection-start-column="27" selection-end-line="152" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding />
         </state>
       </provider>
