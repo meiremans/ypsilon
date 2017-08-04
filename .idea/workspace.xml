@@ -31,9 +31,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ypsilon/routes.json" afterPath="$PROJECT_DIR$/config/ypsilon/routes.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -128,8 +126,8 @@
       <file leaf-file-name="appointments.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="144">
+              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -480,14 +478,7 @@
       <workItem from="1501704885497" duration="622000" />
       <workItem from="1501756332688" duration="19161000" />
       <workItem from="1501795106047" duration="1327000" />
-      <workItem from="1501834849268" duration="7602000" />
-    </task>
-    <task id="LOCAL-00097" summary="removed console.log">
-      <created>1501679452033</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1501679452033</updated>
+      <workItem from="1501834849268" duration="8631000" />
     </task>
     <task id="LOCAL-00098" summary="update greylog config">
       <created>1501680301043</created>
@@ -825,11 +816,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501845722458</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="add checkfront appointment">
+      <created>1501848415827</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1501848415827</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127496000" />
+    <option name="totallyTimeSpent" value="128525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -871,7 +869,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added logging at each request" />
     <MESSAGE value="removed .api from dev routes" />
     <MESSAGE value="also log to console" />
     <MESSAGE value="only log to graylog" />
@@ -896,7 +893,8 @@
     <MESSAGE value="changed var name" />
     <MESSAGE value="get validatetokens from routes.json" />
     <MESSAGE value="put http in front of url" />
-    <option name="LAST_COMMIT_MESSAGE" value="put http in front of url" />
+    <MESSAGE value="add checkfront appointment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add checkfront appointment" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1257,8 +1255,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
           <folding />
         </state>
       </provider>
