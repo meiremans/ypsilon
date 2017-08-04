@@ -32,7 +32,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ypsilon/routes.json" afterPath="$PROJECT_DIR$/config/ypsilon/routes.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="382">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+              <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -127,8 +126,8 @@
       <file leaf-file-name="appointments.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+            <state relative-caret-position="459">
+              <caret line="72" column="26" lean-forward="false" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -495,14 +494,7 @@
       <workItem from="1501704885497" duration="622000" />
       <workItem from="1501756332688" duration="19161000" />
       <workItem from="1501795106047" duration="1327000" />
-      <workItem from="1501834849268" duration="17543000" />
-    </task>
-    <task id="LOCAL-00108" summary="removed all from graylog, see if winston works now">
-      <created>1501757087137</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1501757087137</updated>
+      <workItem from="1501834849268" duration="17764000" />
     </task>
     <task id="LOCAL-00109" summary="added graylog again">
       <created>1501757284988</created>
@@ -840,11 +832,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501877990817</updated>
     </task>
-    <option name="localTasksCounter" value="157" />
+    <task id="LOCAL-00157" summary="add routes for syncbookables and sync appointments">
+      <created>1501878923280</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1501878923280</updated>
+    </task>
+    <option name="localTasksCounter" value="158" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137437000" />
+    <option name="totallyTimeSpent" value="137658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -886,7 +885,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="put outbound id in logging" />
     <MESSAGE value="revert" />
     <MESSAGE value="changed header to setHeader" />
     <MESSAGE value="log req id to console" />
@@ -911,7 +909,8 @@
     <MESSAGE value="added correct route for abstracter bookings" />
     <MESSAGE value="remove trailing /" />
     <MESSAGE value="define y as global, can be used everywhere now without requiring" />
-    <option name="LAST_COMMIT_MESSAGE" value="define y as global, can be used everywhere now without requiring" />
+    <MESSAGE value="add routes for syncbookables and sync appointments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add routes for syncbookables and sync appointments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1258,7 +1257,7 @@
     <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1273,8 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="94" column="17" lean-forward="false" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="72" column="26" lean-forward="false" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
           <folding />
         </state>
       </provider>
