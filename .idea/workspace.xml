@@ -32,7 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/users.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -123,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appointments.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appointments.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+            <state relative-caret-position="68">
+              <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -166,6 +166,7 @@
       <find>request inc</find>
       <find>exchangeSecret</find>
       <find>validateToken</find>
+      <find>URLBUI</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -209,11 +210,11 @@
         <option value="$PROJECT_DIR$/lib/middlewares/main.js" />
         <option value="$PROJECT_DIR$/routes.json" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
         <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/utils.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
+        <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
       </list>
     </option>
   </component>
@@ -478,14 +479,7 @@
       <workItem from="1501704885497" duration="622000" />
       <workItem from="1501756332688" duration="19161000" />
       <workItem from="1501795106047" duration="1327000" />
-      <workItem from="1501834849268" duration="8631000" />
-    </task>
-    <task id="LOCAL-00098" summary="update greylog config">
-      <created>1501680301043</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1501680301044</updated>
+      <workItem from="1501834849268" duration="8802000" />
     </task>
     <task id="LOCAL-00099" summary="upgrade to winston2 greylog">
       <created>1501682340306</created>
@@ -823,11 +817,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501848415827</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="checkfront cannot have a token so it is a &quot;free&quot; endpoint">
+      <created>1501849548859</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1501849548859</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128525000" />
+    <option name="totallyTimeSpent" value="128696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -869,7 +870,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed .api from dev routes" />
     <MESSAGE value="also log to console" />
     <MESSAGE value="only log to graylog" />
     <MESSAGE value="removed all from graylog, see if winston works now" />
@@ -894,7 +894,8 @@
     <MESSAGE value="get validatetokens from routes.json" />
     <MESSAGE value="put http in front of url" />
     <MESSAGE value="add checkfront appointment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add checkfront appointment" />
+    <MESSAGE value="checkfront cannot have a token so it is a &quot;free&quot; endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkfront cannot have a token so it is a &quot;free&quot; endpoint" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1213,14 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1255,8 +1248,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+        <state relative-caret-position="68">
+          <caret line="4" column="48" lean-forward="true" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>
       </provider>
