@@ -30,12 +30,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="right location for ypsilonrc">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/ypsilon/routes.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +43,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
@@ -136,11 +133,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urlBuilder.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urlBuilder.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="187">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -212,9 +209,9 @@
         <option value="$PROJECT_DIR$/lib/middlewares/main.js" />
         <option value="$PROJECT_DIR$/routes.json" />
         <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
-        <option value="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
         <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
       </list>
     </option>
   </component>
@@ -473,14 +470,7 @@
       <workItem from="1501704885497" duration="622000" />
       <workItem from="1501756332688" duration="19161000" />
       <workItem from="1501795106047" duration="1327000" />
-      <workItem from="1501834849268" duration="4793000" />
-    </task>
-    <task id="LOCAL-00093" summary="add a possibility to inject code into app before starting the server">
-      <created>1501627647608</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1501627647608</updated>
+      <workItem from="1501834849268" duration="4966000" />
     </task>
     <task id="LOCAL-00094" summary="added missing require">
       <created>1501627955939</created>
@@ -818,11 +808,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501795703017</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="add route for appointments">
+      <created>1501844772099</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1501844772103</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124687000" />
+    <option name="totallyTimeSpent" value="124860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -864,7 +861,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed console.log" />
     <MESSAGE value="update greylog config" />
     <MESSAGE value="upgrade to winston2 greylog" />
     <MESSAGE value="don't quit logging on error, but continue to write to file" />
@@ -889,7 +885,8 @@
     <MESSAGE value="add origin to headers and logging" />
     <MESSAGE value="add x-forward-for" />
     <MESSAGE value="right location for ypsilonrc" />
-    <option name="LAST_COMMIT_MESSAGE" value="right location for ypsilonrc" />
+    <MESSAGE value="add route for appointments" />
+    <option name="LAST_COMMIT_MESSAGE" value="add route for appointments" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1216,14 +1213,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1252,6 +1241,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
