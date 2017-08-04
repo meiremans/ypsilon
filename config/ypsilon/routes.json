@@ -9,6 +9,14 @@
       "prefix": ".api"
     }
   },
+"users" :
+{
+  "name" : "users",
+  "endpoints" :{
+    "exchangeSecret" : "api/exchangeSecret",
+    "validateToken" : "api/verify"
+  }
+},
   "appointments" : {
     "name": "appointments",
     "endpoints": {
