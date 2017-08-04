@@ -22,7 +22,7 @@
     "endpoints": {
       "google_event": "api/google/sync/appointments/google_event/",
       "google_calendar_bookable": "api/bookable/",
-      "checkfront_appointment" : "api/checkfront/sync/appointment"
+      "checkfront_appointment" : "api/checkfront/appointment"
     }
   }
 }
