@@ -32,7 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/start.js" afterPath="$PROJECT_DIR$/lib/server/start.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -93,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
@@ -113,12 +113,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+              <folding>
+                <marker date="1501882061504" expanded="true" signature="745:750" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -204,7 +206,6 @@
         <option value="$PROJECT_DIR$/ecosystem.config.js" />
         <option value="$PROJECT_DIR$/node_modules/winston2-graylog2/lib/winston-graylog2.js" />
         <option value="$PROJECT_DIR$/node_modules/graylog2/graylog.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/nginx/__template__" />
         <option value="$PROJECT_DIR$/lib/middlewares/main.js" />
         <option value="$PROJECT_DIR$/routes.json" />
@@ -217,6 +218,7 @@
         <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
         <option value="$PROJECT_DIR$/lib/server/start.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -331,6 +333,11 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,14 +501,7 @@
       <workItem from="1501704885497" duration="622000" />
       <workItem from="1501756332688" duration="19161000" />
       <workItem from="1501795106047" duration="1327000" />
-      <workItem from="1501834849268" duration="18673000" />
-    </task>
-    <task id="LOCAL-00110" summary="added graylog again">
-      <created>1501761592543</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1501761592543</updated>
+      <workItem from="1501834849268" duration="19334000" />
     </task>
     <task id="LOCAL-00111" summary="added graylog again">
       <created>1501762425991</created>
@@ -839,11 +839,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501879147997</updated>
     </task>
-    <option name="localTasksCounter" value="159" />
+    <task id="LOCAL-00159" summary="removed global">
+      <created>1501880984084</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1501880984084</updated>
+    </task>
+    <option name="localTasksCounter" value="160" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138567000" />
+    <option name="totallyTimeSpent" value="139228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -885,7 +892,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed header to setHeader" />
     <MESSAGE value="log req id to console" />
     <MESSAGE value="fixed header request id issue" />
     <MESSAGE value="add static meta" />
@@ -910,7 +916,8 @@
     <MESSAGE value="define y as global, can be used everywhere now without requiring" />
     <MESSAGE value="add routes for syncbookables and sync appointments" />
     <MESSAGE value="removed body param" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed body param" />
+    <MESSAGE value="removed global" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed global" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -937,7 +944,7 @@
         <state relative-caret-position="17">
           <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="18" />
           <folding>
-            <marker date="1501773212132" expanded="true" signature="719:724" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
+            <marker date="1501882061504" expanded="true" signature="745:750" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -1133,16 +1140,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-          <folding>
-            <marker date="1501773212132" expanded="true" signature="719:724" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/middlewares/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1276,6 +1273,16 @@
         <state relative-caret-position="204">
           <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="3" lean-forward="false" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding>
+            <marker date="1501882061504" expanded="true" signature="745:750" ph="{&quot;lint&quot;: &quot;node_modules/.bin/eslint server/**/*.js&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
