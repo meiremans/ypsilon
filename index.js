@@ -14,6 +14,7 @@ the ypsilon internal calls
  */
 let userService = require('./lib/services/ypsilon/users');
 let appointmentService = require('./lib/services/ypsilon/appointments');
+let abstracterService = require('./lib/services/ypsilon/abstracter');
 
 
 
@@ -30,5 +31,6 @@ module.exports = {
     mongo,
     userService,
     appointmentService,
+    abstracterService,
     schema
 };

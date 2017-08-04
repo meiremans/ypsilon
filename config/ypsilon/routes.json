@@ -24,5 +24,11 @@
       "google_calendar_bookable": "api/bookable/",
       "checkfront_appointment" : "api/checkfront/appointment"
     }
+  },
+  "abstracter" : {
+    "name" : "abstracter",
+    "endpoints" : {
+      "bookings" : "posts/bookings"
+    }
   }
 }
