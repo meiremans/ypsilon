@@ -13,6 +13,7 @@ let init = require('./lib/server/start');
 the ypsilon internal calls
  */
 let userService = require('./lib/services/ypsilon/users');
+let appointmentService = require('./lib/services/ypsilon/appointments');
 
 
 
@@ -28,5 +29,6 @@ module.exports = {
     request,
     mongo,
     userService,
+    appointmentService,
     schema
 };
