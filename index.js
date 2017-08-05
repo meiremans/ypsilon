@@ -15,6 +15,7 @@ the ypsilon internal calls
 let userService = require('./lib/services/ypsilon/users');
 let appointmentService = require('./lib/services/ypsilon/appointments');
 let abstracterService = require('./lib/services/ypsilon/abstracter');
+let checkfrontService = require('./lib/services/ypsilon/checkfront');
 
 
 
