@@ -30,7 +30,8 @@
   "abstracter" : {
     "name" : "abstracter",
     "endpoints" : {
-      "bookings" : "api/wp/post/bookings"
+      "bookings" : "api/wp/post/bookings",
+      "products" :  "api/WC/store/products"
     }
   }
 }
