@@ -37,7 +37,8 @@
   "checkfront" : {
     "name" : "checkfront",
     "endpoints" : {
-      "booking": "api/booking"
+      "booking": "api/booking",
+      "item":  "api/item"
     }
   }
 }
