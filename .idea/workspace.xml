@@ -30,7 +30,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="added ejs as default view engine">
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/start.js" afterPath="$PROJECT_DIR$/lib/server/start.js" />
     </list>
@@ -86,8 +86,8 @@
       <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+            <state relative-caret-position="493">
+              <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -330,6 +330,11 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -495,14 +500,7 @@
       <workItem from="1501834849268" duration="20326000" />
       <workItem from="1501939339647" duration="4093000" />
       <workItem from="1501950672486" duration="2071000" />
-      <workItem from="1501955308365" duration="1830000" />
-    </task>
-    <task id="LOCAL-00117" summary="try graylog without winston">
-      <created>1501766151242</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1501766151242</updated>
+      <workItem from="1501955308365" duration="2517000" />
     </task>
     <task id="LOCAL-00118" summary="use github fork instead of npm version">
       <created>1501773243615</created>
@@ -840,11 +838,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501960064410</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="changed views to lookup right path">
+      <created>1501960564777</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1501960564777</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148214000" />
+    <option name="totallyTimeSpent" value="148901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -887,7 +892,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add x-forward-for" />
     <MESSAGE value="right location for ypsilonrc" />
     <MESSAGE value="add route for appointments" />
     <MESSAGE value="changed var name" />
@@ -912,7 +916,8 @@
     <MESSAGE value="update bookables url" />
     <MESSAGE value="add checkfrontservice" />
     <MESSAGE value="added ejs as default view engine" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ejs as default view engine" />
+    <MESSAGE value="changed views to lookup right path" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed views to lookup right path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1272,8 +1277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        <state relative-caret-position="493">
+          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
           <folding />
         </state>
       </provider>
