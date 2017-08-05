@@ -32,5 +32,6 @@ module.exports = {
     userService,
     appointmentService,
     abstracterService,
+    checkfrontService,
     schema
 };

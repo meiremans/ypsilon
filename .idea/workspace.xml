@@ -30,9 +30,11 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="remove debugging of non existing body">
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ypsilon/routes.json" afterPath="$PROJECT_DIR$/config/ypsilon/routes.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+            <state relative-caret-position="450">
+              <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -76,8 +78,8 @@
       <file leaf-file-name="routes.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            <state relative-caret-position="416">
+              <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -115,21 +117,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="appointments.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="appointments.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="790">
-              <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="17" />
+            <state relative-caret-position="246">
+              <caret line="81" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/utils.js">
+      <file leaf-file-name="checkfront.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/checkfront.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+            <state relative-caret-position="391">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -202,15 +214,19 @@
         <option value="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/utils.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/abstracter.js" />
         <option value="$PROJECT_DIR$/lib/logger/logger.js" />
         <option value="$PROJECT_DIR$/lib/server/start.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
+        <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
+        <option value="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
+  </component>
+  <component name="Jenkins.Settings">
+    <option name="lastSelectedView" value="all" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -251,22 +267,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="ypsilon" type="cbb8eebc:String" user="ypsilon" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="ypsilon" type="cbb8eebc:String" user="ypsilon" />
-              <item name="lib" type="cbb8eebc:String" user="lib" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,18 +324,26 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
             </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
             <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ypsilon" type="cbb8eebc:String" user="ypsilon" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="ypsilon" type="cbb8eebc:String" user="ypsilon" />
+              <item name="lib" type="cbb8eebc:String" user="lib" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,14 +503,8 @@
       <workItem from="1501756332688" duration="19161000" />
       <workItem from="1501795106047" duration="1327000" />
       <workItem from="1501834849268" duration="20326000" />
-      <workItem from="1501939339647" duration="2049000" />
-    </task>
-    <task id="LOCAL-00113" summary="try version 1 of winston">
-      <created>1501762789536</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1501762789536</updated>
+      <workItem from="1501939339647" duration="4093000" />
+      <workItem from="1501950672486" duration="852000" />
     </task>
     <task id="LOCAL-00114" summary="try graylog without winston">
       <created>1501765846679</created>
@@ -837,11 +842,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501882848328</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <task id="LOCAL-00162" summary="update bookables url">
+      <created>1501943366011</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1501943366011</updated>
+    </task>
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142269000" />
+    <option name="totallyTimeSpent" value="145165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -858,6 +870,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30047694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -883,7 +896,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add static meta" />
     <MESSAGE value="make staticmeta read uit config" />
     <MESSAGE value="add origin to headers and logging" />
     <MESSAGE value="add x-forward-for" />
@@ -908,20 +920,14 @@
     <MESSAGE value="removed global" />
     <MESSAGE value="added express" />
     <MESSAGE value="remove debugging of non existing body" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove debugging of non existing body" />
+    <MESSAGE value="update bookables url" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bookables url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/errors/errors.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="18" lean-forward="false" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1180,13 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -1219,14 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -1241,7 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="368" column="4" lean-forward="false" selection-start-line="368" selection-start-column="4" selection-end-line="368" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,18 +1243,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
+    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        <state relative-caret-position="558">
+          <caret line="36" column="2" lean-forward="false" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="4" selection-end-line="93" selection-end-column="17" />
+        <state relative-caret-position="246">
+          <caret line="81" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="94" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="39" column="30" lean-forward="false" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/checkfront.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="34" column="22" lean-forward="false" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
           <folding />
         </state>
       </provider>

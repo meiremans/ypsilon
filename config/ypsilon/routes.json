@@ -33,5 +33,11 @@
       "bookings" : "api/wp/post/bookings",
       "products" :  "api/WC/store/products"
     }
+  },
+  "checkfront" : {
+    "name" : "checkfront",
+    "endpoints" : {
+      "booking": "api/booking"
+    }
   }
 }
