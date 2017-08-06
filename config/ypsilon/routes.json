@@ -26,7 +26,7 @@
       "checkfront_appointment" : "api/checkfront/appointment",
       "syncBookables" : "api/sync/bookables",
       "syncAppointments" : "api/sync/appointments",
-      "addSyncCheckfront": "api/%s/sync/checkfront"
+      "addSyncCheckfront": "api/{booking_id}/sync/checkfront"
     }
   },
   "abstracter" : {
