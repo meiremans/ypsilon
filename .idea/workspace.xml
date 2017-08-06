@@ -56,7 +56,7 @@
       <file leaf-file-name="routes.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="195">
               <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
               <folding />
             </state>
@@ -118,8 +118,8 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state relative-caret-position="274">
+              <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -509,14 +509,7 @@
       <workItem from="1501939339647" duration="4093000" />
       <workItem from="1501950672486" duration="2071000" />
       <workItem from="1501955308365" duration="5583000" />
-      <workItem from="1502008581577" duration="5189000" />
-    </task>
-    <task id="LOCAL-00125" summary="revert">
-      <created>1501781620435</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1501781620435</updated>
+      <workItem from="1502008581577" duration="6281000" />
     </task>
     <task id="LOCAL-00126" summary="revert">
       <created>1501781742324</created>
@@ -854,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502026493335</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="removed body log">
+      <created>1502031300099</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1502031300099</updated>
+    </task>
+    <option name="localTasksCounter" value="175" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157156000" />
+    <option name="totallyTimeSpent" value="158248000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -901,7 +901,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="checkfront cannot have a token so it is a &quot;free&quot; endpoint" />
     <MESSAGE value="change to utils" />
     <MESSAGE value="removed /sync" />
     <MESSAGE value="add abstracterservice" />
@@ -926,7 +925,8 @@
     <MESSAGE value="added linkproduct route" />
     <MESSAGE value="add route to register user" />
     <MESSAGE value="register user" />
-    <option name="LAST_COMMIT_MESSAGE" value="register user" />
+    <MESSAGE value="removed body log" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed body log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1264,14 +1264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/checkfront.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
@@ -1280,10 +1272,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        <state relative-caret-position="274">
+          <caret line="41" column="42" lean-forward="false" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding />
         </state>
       </provider>
