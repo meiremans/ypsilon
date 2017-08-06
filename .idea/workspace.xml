@@ -33,7 +33,6 @@
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/users.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,8 +108,8 @@
       <file leaf-file-name="checkfront.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/checkfront.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+            <state relative-caret-position="314">
+              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -511,14 +510,7 @@
       <workItem from="1501939339647" duration="4093000" />
       <workItem from="1501950672486" duration="2071000" />
       <workItem from="1501955308365" duration="5583000" />
-      <workItem from="1502008581577" duration="11072000" />
-    </task>
-    <task id="LOCAL-00131" summary="fixed header request id issue">
-      <created>1501783498032</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1501783498032</updated>
+      <workItem from="1502008581577" duration="11141000" />
     </task>
     <task id="LOCAL-00132" summary="fixed header request id issue">
       <created>1501783737630</created>
@@ -856,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502051916711</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="update linkproduct to send right bodsy">
+      <created>1502054144588</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1502054144588</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163039000" />
+    <option name="totallyTimeSpent" value="163108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -1284,8 +1283,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/checkfront.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        <state relative-caret-position="314">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
           <folding />
         </state>
       </provider>
