@@ -40,7 +40,7 @@
     "endpoints" : {
       "booking": "api/booking",
       "item":  "api/item",
-      "linkproduct":  "api/linkproduct"
+      "linkproduct":  "api/linkitem"
     }
   }
 }
