@@ -25,7 +25,8 @@
       "google_calendar_bookable": "api/bookable/",
       "checkfront_appointment" : "api/checkfront/appointment",
       "syncBookables" : "api/sync/bookables",
-      "syncAppointments" : "api/sync/appointments"
+      "syncAppointments" : "api/sync/appointments",
+      "addSyncCheckfront": "api/%s/sync/checkfront"
     }
   },
   "abstracter" : {
@@ -40,7 +41,8 @@
     "endpoints" : {
       "booking": "api/booking",
       "item":  "api/item",
-      "linkproduct":  "api/linkitem"
+      "linkproduct":  "api/linkitem",
+      "registerUser": "api/user"
     }
   }
 }
