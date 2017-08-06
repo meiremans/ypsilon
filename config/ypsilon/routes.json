@@ -14,7 +14,8 @@
   "name" : "users",
   "endpoints" :{
     "exchangeSecret" : "api/exchangeSecret",
-    "validateToken" : "api/verify"
+    "validateToken" : "api/verify",
+    "register" : "api/register"
   }
 },
   "appointments" : {
