@@ -32,10 +32,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ypsilon/routes.json" afterPath="$PROJECT_DIR$/config/ypsilon/routes.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/abstracter.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/abstracter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,9 +76,21 @@
       <file leaf-file-name="abstracter.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/abstracter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            <state relative-caret-position="229">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strformat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/strformat/strformat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-716">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,16 +142,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="4" lean-forward="false" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -519,14 +518,7 @@
       <workItem from="1501950672486" duration="2071000" />
       <workItem from="1501955308365" duration="5583000" />
       <workItem from="1502008581577" duration="15548000" />
-      <workItem from="1502108035855" duration="6104000" />
-    </task>
-    <task id="LOCAL-00140" summary="right location for ypsilonrc">
-      <created>1501795482036</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1501795482036</updated>
+      <workItem from="1502108035855" duration="6874000" />
     </task>
     <task id="LOCAL-00141" summary="right location for ypsilonrc">
       <created>1501795703017</created>
@@ -864,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502117946210</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="add route for bookingsdlot">
+      <created>1502133682678</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1502133682679</updated>
+    </task>
+    <option name="localTasksCounter" value="190" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173619000" />
+    <option name="totallyTimeSpent" value="174389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -911,7 +910,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed global" />
     <MESSAGE value="added express" />
     <MESSAGE value="remove debugging of non existing body" />
     <MESSAGE value="update bookables url" />
@@ -936,21 +934,14 @@
     <MESSAGE value="added all products route" />
     <MESSAGE value="removed query param" />
     <MESSAGE value="changed wrong get to post" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed wrong get to post" />
+    <MESSAGE value="add route for bookingsdlot" />
+    <option name="LAST_COMMIT_MESSAGE" value="add route for bookingsdlot" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1290,10 +1281,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/strformat/strformat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-716">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/abstracter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="229">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
           <folding />
         </state>
       </provider>
