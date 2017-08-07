@@ -34,7 +34,8 @@
     "name" : "abstracter",
     "endpoints" : {
       "bookings" : "api/wp/post/bookings",
-      "products" :  "api/WC/store/products"
+      "products" :  "api/WC/store/products",
+      "bookingSlot" : "/WP/post/bookings/{product_id}/appointmentSlot"
     }
   },
   "checkfront" : {
