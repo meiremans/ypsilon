@@ -35,7 +35,7 @@
     "endpoints" : {
       "bookings" : "api/wp/post/bookings",
       "products" :  "api/WC/store/products",
-      "bookingSlot" : "/WP/post/bookings/{0}/appointmentSlot"
+      "bookingSlot" : "api/WP/post/bookings/{0}/appointmentSlot"
     }
   },
   "checkfront" : {
