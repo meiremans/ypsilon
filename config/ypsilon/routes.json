@@ -15,7 +15,8 @@
   "endpoints" :{
     "exchangeSecret" : "api/exchangeSecret",
     "validateToken" : "api/verify",
-    "register" : "api/register"
+    "register" : "api/register",
+    "loginbyusername": "api/loginbyusername"
   }
 },
   "appointments" : {
