@@ -47,5 +47,11 @@
       "linkproduct":  "api/linkitem",
       "registerUser": "api/user"
     }
+  },
+  "bluebear" : {
+    "name" : "bluebear",
+    "endpoints" : {
+      "vrijbezet" : "api/google/appointment/"
+    }
   }
 }
