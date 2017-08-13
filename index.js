@@ -16,6 +16,7 @@ let userService = require('./lib/services/ypsilon/users');
 let appointmentService = require('./lib/services/ypsilon/appointments');
 let abstracterService = require('./lib/services/ypsilon/abstracter');
 let checkfrontService = require('./lib/services/ypsilon/checkfront');
+let bluebearService = require('./lib/services/ypsilon/bluebear');
 
 
 
@@ -34,5 +35,6 @@ module.exports = {
     appointmentService,
     abstracterService,
     checkfrontService,
+    bluebearService,
     schema
 };
