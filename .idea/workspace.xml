@@ -30,7 +30,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="add some env settings">
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nginx/__template__" afterPath="$PROJECT_DIR$/nginx/__template__" />
     </list>
@@ -43,7 +43,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="127">
@@ -201,11 +201,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__template__" pinned="false" current-in-tab="false">
+      <file leaf-file-name="__template__" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nginx/__template__">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -633,14 +633,7 @@
       <workItem from="1503912720588" duration="7133000" />
       <workItem from="1504011755236" duration="3771000" />
       <workItem from="1504094224072" duration="1383000" />
-      <workItem from="1504264492642" duration="2436000" />
-    </task>
-    <task id="LOCAL-00154" summary="added correct route for abstracter bookings">
-      <created>1501874974354</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1501874974354</updated>
+      <workItem from="1504264492642" duration="3108000" />
     </task>
     <task id="LOCAL-00155" summary="remove trailing /">
       <created>1501875189017</created>
@@ -978,11 +971,18 @@
       <option name="project" value="LOCAL" />
       <updated>1504021891320</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="added https">
+      <created>1504283436921</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1504283436921</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200349000" />
+    <option name="totallyTimeSpent" value="201021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -1025,7 +1025,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add route to get items from chcekfront" />
     <MESSAGE value="added linkproduct route" />
     <MESSAGE value="add route to register user" />
     <MESSAGE value="register user" />
@@ -1050,7 +1049,8 @@
     <MESSAGE value="add bluebear endpoint" />
     <MESSAGE value="check if app is runnning in dev or production" />
     <MESSAGE value="add some env settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="add some env settings" />
+    <MESSAGE value="added https" />
+    <option name="LAST_COMMIT_MESSAGE" value="added https" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1493,18 +1493,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nginx/__template__">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="56" column="37" lean-forward="false" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nginx/__template__">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
