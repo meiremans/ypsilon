@@ -32,7 +32,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/server/start.js" afterPath="$PROJECT_DIR$/lib/server/start.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ypsilon/routes.json" afterPath="$PROJECT_DIR$/config/ypsilon/routes.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" afterPath="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,11 +44,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="136">
+              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="appointments.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="118" column="32" lean-forward="true" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -73,16 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node-globals-stub.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-globals-stub.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5151">
-              <caret line="303" column="4" lean-forward="false" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/middlewares/main.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,18 +97,8 @@
       <file leaf-file-name="abstracter.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/abstracter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/utils.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -123,21 +114,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__template_dev__" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nginx/__template_dev__">
+      <file leaf-file-name="routes.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+            <state relative-caret-position="25">
+              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
+      <file leaf-file-name="__template_dev__" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nginx/__template_dev__">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="7" />
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -179,7 +170,12 @@
       <find>dev</find>
       <find>Y-Origin</find>
       <find>user</find>
+      <find>updateBookingSlot</find>
+      <find>bookingSlots</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\nickm\IdeaProjects\ypsilon\lib\errors</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -218,11 +214,8 @@
         <option value="$PROJECT_DIR$/lib/services/ypsilon/urlBuilder.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/checkfront.js" />
-        <option value="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
-        <option value="$PROJECT_DIR$/lib/services/ypsilon/abstracter.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/bluebear.js" />
-        <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/lib/logger/logger.js" />
         <option value="$PROJECT_DIR$/lib/utils/env.js" />
@@ -232,6 +225,9 @@
         <option value="$PROJECT_DIR$/lib/mom/schema.js" />
         <option value="$PROJECT_DIR$/nginx/__template_dev__" />
         <option value="$PROJECT_DIR$/lib/server/start.js" />
+        <option value="$PROJECT_DIR$/config/ypsilon/routes.json" />
+        <option value="$PROJECT_DIR$/lib/services/ypsilon/abstracter.js" />
+        <option value="$PROJECT_DIR$/lib/services/ypsilon/appointments.js" />
       </list>
     </option>
   </component>
@@ -256,9 +252,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1273" />
-    <option name="width" value="1294" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -303,24 +300,6 @@
               <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="logger" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="mom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -329,17 +308,6 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -549,14 +517,7 @@
       <workItem from="1504646882779" duration="638000" />
       <workItem from="1504790061098" duration="631000" />
       <workItem from="1506080559040" duration="782000" />
-      <workItem from="1506359166565" duration="116000" />
-    </task>
-    <task id="LOCAL-00162" summary="update bookables url">
-      <created>1501943366011</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1501943366011</updated>
+      <workItem from="1506359166565" duration="2451000" />
     </task>
     <task id="LOCAL-00163" summary="add checkfrontservice">
       <created>1501953658754</created>
@@ -894,11 +855,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506080738789</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="check if appinjector is a function">
+      <created>1506359295497</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1506359295497</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="209348000" />
+    <option name="totallyTimeSpent" value="211683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -941,7 +909,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove tokencheck" />
     <MESSAGE value="changed route" />
     <MESSAGE value="update linkproduct to send right bodsy" />
     <MESSAGE value="don't reject promise" />
@@ -966,7 +933,8 @@
     <MESSAGE value="support for static files" />
     <MESSAGE value="moved app injector before first middleware" />
     <MESSAGE value="added different template for dev, so no ssl" />
-    <option name="LAST_COMMIT_MESSAGE" value="added different template for dev, so no ssl" />
+    <MESSAGE value="check if appinjector is a function" />
+    <option name="LAST_COMMIT_MESSAGE" value="check if appinjector is a function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1233,22 +1201,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="103" column="53" lean-forward="false" selection-start-line="103" selection-start-column="53" selection-end-line="103" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1281,14 +1233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/abstracter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nginx/__template_prod__">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1315,8 +1259,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ypsilon/routes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/abstracter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="55" lean-forward="false" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/appointments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="118" column="32" lean-forward="true" selection-start-line="118" selection-start-column="32" selection-end-line="118" selection-end-column="32" />
           <folding />
         </state>
       </provider>

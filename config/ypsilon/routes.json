@@ -28,7 +28,8 @@
       "syncBookables" : "api/sync/bookables",
       "syncAppointments" : "api/sync/appointments",
       "addSyncCheckfront": "api/sync/checkfront",
-      "products": "api/products"
+      "products": "api/products",
+      "bookingSlots" : "api/bookingSlots"
     }
   },
   "abstracter" : {
