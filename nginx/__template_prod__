@@ -6,8 +6,8 @@ server {
     access_log /var/log/nginx/__DOMAIN__.access.log;
     error_log /var/log/nginx/__DOMAIN__.error.log;
 
-   ssl_certificate /etc/letsencrypt/live/google.api.ypsilon.club/fullchain.pem;
-   ssl_certificate_key /etc/letsencrypt/live/google.api.ypsilon.club/privkey.pem;
+   ssl_certificate /etc/letsencrypt/live/__DOMAIN__/fullchain.pem;
+   ssl_certificate_key /etc/letsencrypt/live/__DOMAIN__/privkey.pem;
    location ~ /.well-known {
          root /var/www/ssl-proof/ypsilon;
     }
