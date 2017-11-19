@@ -136,8 +136,8 @@
       <file leaf-file-name="logger.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -578,14 +578,7 @@
       <workItem from="1508344993113" duration="4627000" />
       <workItem from="1508401143619" duration="608000" />
       <workItem from="1508403353461" duration="41000" />
-      <workItem from="1511117300512" duration="149000" />
-    </task>
-    <task id="LOCAL-00171" summary="added linkproduct route">
-      <created>1502012436996</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1502012436997</updated>
+      <workItem from="1511117300512" duration="616000" />
     </task>
     <task id="LOCAL-00172" summary="add route to register user">
       <created>1502016789612</created>
@@ -923,11 +916,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508348303909</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="no logging on localhost if env = production">
+      <created>1511117464253</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1511117464254</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226616000" />
+    <option name="totallyTimeSpent" value="227083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -970,7 +970,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add route for bookingsdlot" />
     <MESSAGE value="reassign string ofc" />
     <MESSAGE value="0" />
     <MESSAGE value="add logging" />
@@ -995,7 +994,8 @@
     <MESSAGE value="autoregister with letsencrypt" />
     <MESSAGE value="made certbot not interavtivce" />
     <MESSAGE value="removed the ssl location from the template" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed the ssl location from the template" />
+    <MESSAGE value="no logging on localhost if env = production" />
+    <option name="LAST_COMMIT_MESSAGE" value="no logging on localhost if env = production" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1343,8 +1343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/logger/logger.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="36" column="5" lean-forward="false" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        <state relative-caret-position="170">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
