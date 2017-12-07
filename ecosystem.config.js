@@ -6,7 +6,7 @@ module.exports =  {
     name: ypsilonrc.name,
     script: "npm",
     args:"start",
-    max_restarts: 10,
+    max_restarts: "10",
     env: {
         "NODE_ENV": "development",
     },
