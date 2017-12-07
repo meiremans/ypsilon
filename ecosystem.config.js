@@ -7,6 +7,7 @@ module.exports =  {
     script: "npm",
     args:"start",
     max_restarts: "10",
+    min_uptime: "24h",
     env: {
         "NODE_ENV": "development",
     },

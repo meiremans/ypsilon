@@ -136,8 +136,8 @@
       <file leaf-file-name="ecosystem.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -583,14 +583,7 @@
       <workItem from="1511798274716" duration="596000" />
       <workItem from="1511813415927" duration="601000" />
       <workItem from="1512635666258" duration="1017000" />
-      <workItem from="1512663736129" duration="15000" />
-    </task>
-    <task id="LOCAL-00176" summary="remove body">
-      <created>1502032835368</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1502032835368</updated>
+      <workItem from="1512663736129" duration="684000" />
     </task>
     <task id="LOCAL-00177" summary="remove tokencheck">
       <created>1502032973621</created>
@@ -928,11 +921,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512635792692</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="10 as string">
+      <created>1512663758485</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1512663758486</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236479000" />
+    <option name="totallyTimeSpent" value="237148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -976,7 +976,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add login by username" />
     <MESSAGE value="add bluebear endpoint" />
     <MESSAGE value="check if app is runnning in dev or production" />
     <MESSAGE value="add some env settings" />
@@ -1001,7 +1000,8 @@
     <MESSAGE value="not edit nginx if os != linux" />
     <MESSAGE value="add GNU3 License" />
     <MESSAGE value="max restarts  attempt when app wont start = 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="max restarts  attempt when app wont start = 10" />
+    <MESSAGE value="10 as string" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 as string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1354,8 +1354,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecosystem.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
           <folding />
         </state>
       </provider>
