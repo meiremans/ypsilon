@@ -31,10 +31,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/websocket/websocket.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/lib/server/start.js" afterPath="$PROJECT_DIR$/lib/server/start.js" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/lib/websocket/websocket.js" afterPath="$PROJECT_DIR$/lib/websocket/websocket.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="start.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/server/start.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            <state relative-caret-position="372">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="websocket.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="websocket.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/websocket/websocket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="578">
+              <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -240,8 +239,8 @@
         <option value="$PROJECT_DIR$/lib/logger/logger.js" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/ecosystem.config.js" />
-        <option value="$PROJECT_DIR$/lib/server/start.js" />
         <option value="$PROJECT_DIR$/lib/websocket/websocket.js" />
+        <option value="$PROJECT_DIR$/lib/server/start.js" />
       </list>
     </option>
   </component>
@@ -352,6 +351,12 @@
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -587,14 +592,7 @@
       <workItem from="1511813415927" duration="601000" />
       <workItem from="1512635666258" duration="1017000" />
       <workItem from="1512663736129" duration="1299000" />
-      <workItem from="1512747375874" duration="1721000" />
-    </task>
-    <task id="LOCAL-00178" summary="changed route">
-      <created>1502049892771</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1502049892771</updated>
+      <workItem from="1512747375874" duration="3080000" />
     </task>
     <task id="LOCAL-00179" summary="update linkproduct to send right bodsy">
       <created>1502051916711</created>
@@ -932,11 +930,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512667728924</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="added websocket">
+      <created>1512758104918</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1512758104919</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="239484000" />
+    <option name="totallyTimeSpent" value="240843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
@@ -980,7 +985,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="check if app is runnning in dev or production" />
     <MESSAGE value="add some env settings" />
     <MESSAGE value="added https" />
     <MESSAGE value="if origin is unknown" />
@@ -1005,7 +1009,8 @@
     <MESSAGE value="max restarts  attempt when app wont start = 10" />
     <MESSAGE value="10 as string" />
     <MESSAGE value="add min_uptime" />
-    <option name="LAST_COMMIT_MESSAGE" value="add min_uptime" />
+    <MESSAGE value="added websocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="added websocket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1356,18 +1361,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/server/start.js">
+    <entry file="file://$PROJECT_DIR$/lib/websocket/websocket.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state relative-caret-position="578">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/websocket/websocket.js">
+    <entry file="file://$PROJECT_DIR$/lib/server/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="372">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
