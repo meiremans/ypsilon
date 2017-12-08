@@ -21,7 +21,8 @@
     "winston": "^1.0.0",
     "winston-graylog2": "git+https://github.com/ab-itteam/winston-graylog2.git",
     "winston-papertrail": "^1.0.5",
-    "winston2-graylog2": "^1.0.0"
+    "winston2-graylog2": "^1.0.0",
+    "ws": "^3.3.2"
   },
   "scripts": {
     "lint": "node_modules/.bin/eslint server/**/*.js",
