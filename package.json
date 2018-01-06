@@ -3,19 +3,19 @@
   "version": "0.0.1",
   "dependencies": {
     "app-root-path": "^2.0.1",
-    "body-parser": "^1.17.2",
-    "compression": "^1.7.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
     "consign": "^0.1.6",
     "cors": "^2.8.4",
     "ejs": "^2.5.7",
-    "express": "^4.15.3",
+    "express": "^4.16.2",
     "express-fileupload": "^0.2.0",
     "graylog2": "^0.1.3",
-    "mongoose": "^4.11.2",
+    "mongoose": "^4.13.8",
     "mongoose-post-find": "0.0.2",
-    "morgan": "^1.8.2",
-    "request": "^2.81.0",
-    "request-promise": "^4.2.1",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "shelljs": "^0.7.8",
     "strformat": "0.0.7",
     "uuid": "^3.1.0",
@@ -23,14 +23,14 @@
     "winston-graylog2": "git+https://github.com/ab-itteam/winston-graylog2.git",
     "winston-papertrail": "^1.0.5",
     "winston2-graylog2": "^1.0.0",
-    "ws": "^3.3.2"
+    "ws": "^3.3.3"
   },
   "scripts": {
     "lint": "node_modules/.bin/eslint server/**/*.js",
     "provision": "nginx/createnginxsite.sh"
   },
   "devDependencies": {
-    "chai": "^4.1.0",
-    "mocha": "^3.4.2"
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
   }
 }
