@@ -3,18 +3,18 @@
   "version": "0.0.1",
   "dependencies": {
     "app-root-path": "^2.0.1",
-    "body-parser": "^1.18.2",
-    "compression": "^1.7.1",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
     "consign": "^0.1.6",
     "cors": "^2.8.4",
     "ejs": "^2.5.7",
-    "express": "^4.16.2",
+    "express": "^4.16.4",
     "express-fileupload": "^1.1.1-alpha.1",
     "graylog2": "^0.2.1",
     "mongoose": "^5.4.3",
     "mongoose-post-find": "0.0.2",
-    "morgan": "^1.9.0",
-    "request": "^2.83.0",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "shelljs": "^0.8.3",
     "strformat": "0.0.7",
@@ -30,7 +30,7 @@
     "provision": "nginx/createnginxsite.sh"
   },
   "devDependencies": {
-    "chai": "^4.1.2",
+    "chai": "^4.2.0",
     "mocha": "^5.2.0"
   }
 }
