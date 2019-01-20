@@ -19,7 +19,7 @@
     "shelljs": "^0.8.3",
     "strformat": "0.0.7",
     "uuid": "^3.1.0",
-    "winston": "^3.1.0",
+    "winston": "^2.4.4",
     "winston-graylog2": "^1.1.0",
     "winston-papertrail": "^1.0.5",
     "winston2-graylog2": "^1.0.0",
