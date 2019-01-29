@@ -1,6 +1,8 @@
 {
   "name": "ypsilon",
   "version": "0.0.1",
+  "description": "A microservice oriented framework",
+  "author": "Nick Meiremans",
   "dependencies": {
     "app-root-path": "^2.0.1",
     "body-parser": "^1.18.3",

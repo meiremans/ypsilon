@@ -12,3 +12,7 @@ Ypsilon requires [Node.js](https://nodejs.org/) v8+ to run.
 ```sh
 $ npm install ypsilon --save
 ```
+
+By default it will try to connect to mongoDb on localhost:27017.
+
+You can override this by setting the MONGO_CONNECTION_STRING env variable
