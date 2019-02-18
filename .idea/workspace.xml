@@ -30,8 +30,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="temp log secret">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="nope, should be base64 after reconsideration">
+      <change beforePath="$PROJECT_DIR$/config/JWT/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/JWT/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/ypsilon/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/ypsilon/users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/config/JWT/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -108,29 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/middlewares/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/mom/schema.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="300">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -236,8 +228,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/mongo/index.js" />
         <option value="$PROJECT_DIR$/lib/middlewares/auth.js" />
-        <option value="$PROJECT_DIR$/config/JWT/index.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
+        <option value="$PROJECT_DIR$/config/JWT/index.js" />
       </list>
     </option>
   </component>
@@ -581,14 +573,7 @@
       <workItem from="1548073988576" duration="2856000" />
       <workItem from="1548792024771" duration="5000000" />
       <workItem from="1550484778483" duration="1495000" />
-      <workItem from="1550512153907" duration="4768000" />
-    </task>
-    <task id="LOCAL-00211" summary="check if appinjector is a function">
-      <created>1506359295497</created>
-      <option name="number" value="00211" />
-      <option name="presentableId" value="LOCAL-00211" />
-      <option name="project" value="LOCAL" />
-      <updated>1506359295497</updated>
+      <workItem from="1550512153907" duration="5421000" />
     </task>
     <task id="LOCAL-00212" summary="add route to booking slots">
       <created>1506380510655</created>
@@ -926,11 +911,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550517418939</updated>
     </task>
-    <option name="localTasksCounter" value="260" />
+    <task id="LOCAL-00260" summary="nope, should be base64 after reconsideration">
+      <created>1550517673287</created>
+      <option name="number" value="00260" />
+      <option name="presentableId" value="LOCAL-00260" />
+      <option name="project" value="LOCAL" />
+      <updated>1550517673287</updated>
+    </task>
+    <option name="localTasksCounter" value="261" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291115000" />
+    <option name="totallyTimeSpent" value="291768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -943,8 +935,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112171836" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.112171836" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -960,7 +953,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49523053" weight="0.32934782" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49880573" weight="0.33114034" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.39498806" visible="true" weight="0.41484717" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.39498806" visible="true" weight="0.41484717" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.60501194" side_tool="true" visible="true" weight="0.41484717" />
       <window_info anchor="bottom" id="TeamCity" order="10" weight="0.32934782" />
       <window_info anchor="bottom" id="Docker" order="11" />
@@ -993,7 +986,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" mongoose-post-find package from github" />
     <MESSAGE value="log requests to winston" />
     <MESSAGE value="different loggers for different environments" />
     <MESSAGE value="get mongoose-post-find from npm repo" />
@@ -1018,11 +1010,10 @@
     <MESSAGE value="right path for error" />
     <MESSAGE value="temp log secret" />
     <MESSAGE value="don't decode the secret in base64" />
-    <option name="LAST_COMMIT_MESSAGE" value="don't decode the secret in base64" />
+    <MESSAGE value="nope, should be base64 after reconsideration" />
+    <option name="LAST_COMMIT_MESSAGE" value="nope, should be base64 after reconsideration" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/package.json" />
-    <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/test/winston-graylog2-test.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/mocha/mocha.js" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/javascript/nodejs/library/node-console-stub.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/winston2-graylog2/lib/winston-graylog2.js" />
@@ -1277,13 +1268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/JWT/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1291,10 +1275,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/JWT/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
