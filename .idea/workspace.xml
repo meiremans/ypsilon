@@ -30,13 +30,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="don't automaticly add to nginx anymore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/middlewares/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/middlewares/auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/ypsilon/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/ypsilon/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="verify token in library, not external" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +39,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/mongo/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -126,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -222,7 +216,6 @@
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/ecosystem.config.js" />
         <option value="$PROJECT_DIR$/lib/websocket/websocket.js" />
-        <option value="$PROJECT_DIR$/config/mongo/index.js" />
         <option value="$PROJECT_DIR$/node_modules/mongoose-post-find/package.json" />
         <option value="$PROJECT_DIR$/lib/logger/devlogger.js" />
         <option value="$PROJECT_DIR$/lib/utils/env.js" />
@@ -237,6 +230,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/middlewares/auth.js" />
         <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
+        <option value="$PROJECT_DIR$/config/mongo/index.js" />
       </list>
     </option>
   </component>
@@ -276,18 +270,6 @@
               <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
               <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="mongo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="ypsilon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ypsilon" type="b2602c69:ProjectViewProjectNode" />
@@ -580,14 +562,7 @@
       <workItem from="1548073988576" duration="2856000" />
       <workItem from="1548792024771" duration="5000000" />
       <workItem from="1550484778483" duration="1495000" />
-      <workItem from="1550512153907" duration="2725000" />
-    </task>
-    <task id="LOCAL-00203" summary="added https">
-      <created>1504283436921</created>
-      <option name="number" value="00203" />
-      <option name="presentableId" value="LOCAL-00203" />
-      <option name="project" value="LOCAL" />
-      <updated>1504283436921</updated>
+      <workItem from="1550512153907" duration="3060000" />
     </task>
     <task id="LOCAL-00204" summary="added https">
       <created>1504284960355</created>
@@ -925,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1548797916061</updated>
     </task>
-    <option name="localTasksCounter" value="252" />
+    <task id="LOCAL-00252" summary="verify token in library, not external">
+      <created>1550515483732</created>
+      <option name="number" value="00252" />
+      <option name="presentableId" value="LOCAL-00252" />
+      <option name="project" value="LOCAL" />
+      <updated>1550515483734</updated>
+    </task>
+    <option name="localTasksCounter" value="253" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289072000" />
+    <option name="totallyTimeSpent" value="289407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,7 +924,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112171836" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -993,7 +974,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added websocket" />
     <MESSAGE value="removed websocket" />
     <MESSAGE value="added pre and post find hooks&#10;renamed pre and post to preSave and postSave" />
     <MESSAGE value="now possible to modify the result from a mongoose find query in post hook" />
@@ -1018,7 +998,8 @@
     <MESSAGE value="read from config" />
     <MESSAGE value="read view location from serverroot" />
     <MESSAGE value="updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
+    <MESSAGE value="verify token in library, not external" />
+    <option name="LAST_COMMIT_MESSAGE" value="verify token in library, not external" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/winston-graylog2/.travis.yml" />
@@ -1230,13 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/mongo/default.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/middlewares/error-handler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1265,13 +1239,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/mongo/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1281,8 +1248,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="300">
+          <caret line="20" column="34" lean-forward="true" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mongo/default.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/mongo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
