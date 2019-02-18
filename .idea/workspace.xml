@@ -30,9 +30,8 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="nope, should be base64 after reconsideration">
-      <change beforePath="$PROJECT_DIR$/config/JWT/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/JWT/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/services/ypsilon/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/ypsilon/users.js" afterDir="false" />
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="use base64 internal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/JWT/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+            <state relative-caret-position="105">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -112,8 +111,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -121,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="16" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="16" />
+            <state relative-caret-position="-1110">
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -228,8 +227,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/config/mongo/index.js" />
         <option value="$PROJECT_DIR$/lib/middlewares/auth.js" />
-        <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
         <option value="$PROJECT_DIR$/config/JWT/index.js" />
+        <option value="$PROJECT_DIR$/lib/services/ypsilon/users.js" />
       </list>
     </option>
   </component>
@@ -573,28 +572,7 @@
       <workItem from="1548073988576" duration="2856000" />
       <workItem from="1548792024771" duration="5000000" />
       <workItem from="1550484778483" duration="1495000" />
-      <workItem from="1550512153907" duration="5421000" />
-    </task>
-    <task id="LOCAL-00212" summary="add route to booking slots">
-      <created>1506380510655</created>
-      <option name="number" value="00212" />
-      <option name="presentableId" value="LOCAL-00212" />
-      <option name="project" value="LOCAL" />
-      <updated>1506380510655</updated>
-    </task>
-    <task id="LOCAL-00213" summary="change debug to info in logging">
-      <created>1506601394740</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1506601394740</updated>
-    </task>
-    <task id="LOCAL-00214" summary="auto add domain ssl key (needs to be generated first)">
-      <created>1507043766804</created>
-      <option name="number" value="00214" />
-      <option name="presentableId" value="LOCAL-00214" />
-      <option name="project" value="LOCAL" />
-      <updated>1507043766806</updated>
+      <workItem from="1550512153907" duration="5926000" />
     </task>
     <task id="LOCAL-00215" summary="add support for post save events">
       <created>1507824394206</created>
@@ -918,11 +896,32 @@
       <option name="project" value="LOCAL" />
       <updated>1550517673287</updated>
     </task>
-    <option name="localTasksCounter" value="261" />
+    <task id="LOCAL-00261" summary="base64 encode secret in config">
+      <created>1550518172797</created>
+      <option name="number" value="00261" />
+      <option name="presentableId" value="LOCAL-00261" />
+      <option name="project" value="LOCAL" />
+      <updated>1550518172797</updated>
+    </task>
+    <task id="LOCAL-00262" summary="tostring">
+      <created>1550518262535</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1550518262535</updated>
+    </task>
+    <task id="LOCAL-00263" summary="use base64 internal">
+      <created>1550518611291</created>
+      <option name="number" value="00263" />
+      <option name="presentableId" value="LOCAL-00263" />
+      <option name="project" value="LOCAL" />
+      <updated>1550518611291</updated>
+    </task>
+    <option name="localTasksCounter" value="264" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291768000" />
+    <option name="totallyTimeSpent" value="292273000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -935,7 +934,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.112171836" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -986,9 +984,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="log requests to winston" />
-    <MESSAGE value="different loggers for different environments" />
-    <MESSAGE value="get mongoose-post-find from npm repo" />
     <MESSAGE value="updated packages" />
     <MESSAGE value="minor updates" />
     <MESSAGE value="changed to new winston.createLogger" />
@@ -1011,7 +1006,10 @@
     <MESSAGE value="temp log secret" />
     <MESSAGE value="don't decode the secret in base64" />
     <MESSAGE value="nope, should be base64 after reconsideration" />
-    <option name="LAST_COMMIT_MESSAGE" value="nope, should be base64 after reconsideration" />
+    <MESSAGE value="base64 encode secret in config" />
+    <MESSAGE value="tostring" />
+    <MESSAGE value="use base64 internal" />
+    <option name="LAST_COMMIT_MESSAGE" value="use base64 internal" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/mocha/mocha.js" />
@@ -1268,20 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1291,15 +1275,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/JWT/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        <state relative-caret-position="105">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/middlewares/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jsonwebtoken/verify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1110">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/services/ypsilon/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
