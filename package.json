@@ -13,6 +13,7 @@
     "express": "^4.16.4",
     "express-fileupload": "^1.1.1-alpha.1",
     "graylog2": "^0.2.1",
+    "jsonwebtoken": "^8.4.0",
     "mongoose": "^5.4.3",
     "mongoose-post-find": "0.0.2",
     "morgan": "^1.9.1",
