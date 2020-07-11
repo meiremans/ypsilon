@@ -48,12 +48,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="removed logging">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="updated deps" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,14 +319,7 @@
       <workItem from="1550484778483" duration="1495000" />
       <workItem from="1550512153907" duration="6611000" />
       <workItem from="1594478559144" duration="868000" />
-      <workItem from="1594480135478" duration="687000" />
-    </task>
-    <task id="LOCAL-00217" summary="autoregister with letsencrypt">
-      <created>1508345432732</created>
-      <option name="number" value="00217" />
-      <option name="presentableId" value="LOCAL-00217" />
-      <option name="project" value="LOCAL" />
-      <updated>1508345432733</updated>
+      <workItem from="1594480135478" duration="1021000" />
     </task>
     <task id="LOCAL-00218" summary="made certbot not interavtivce">
       <created>1508347274375</created>
@@ -669,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550519072632</updated>
     </task>
-    <option name="localTasksCounter" value="266" />
+    <task id="LOCAL-00266" summary="updated deps">
+      <created>1594480844902</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1594480844903</updated>
+    </task>
+    <option name="localTasksCounter" value="267" />
     <servers />
   </component>
   <component name="TodoView">
@@ -707,7 +702,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed to new winston.createLogger" />
     <MESSAGE value="use winston-graylog2 from npm" />
     <MESSAGE value="from now on ypsilon takes the root dir as the server dir, no subfolder &quot;server&quot; as the root" />
     <MESSAGE value="downgrade winston to 2.x" />
@@ -732,7 +726,14 @@
     <MESSAGE value="use base64 internal" />
     <MESSAGE value="don't pass as buffer" />
     <MESSAGE value="removed logging" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed logging" />
+    <MESSAGE value="updated deps" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated deps" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594480847729">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="253" key="Vcs.Push.Dialog.v2/0.0.2560.1040/2560.0.1080.1880@0.0.2560.1040" timestamp="1594480847729" />
   </component>
   <component name="masterDetails">
     <states>
