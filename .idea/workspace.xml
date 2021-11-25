@@ -48,7 +48,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="remove greylog2" />
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="v++">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -323,14 +325,7 @@
       <workItem from="1594478559144" duration="868000" />
       <workItem from="1594480135478" duration="1021000" />
       <workItem from="1637782452584" duration="903000" />
-      <workItem from="1637846659613" duration="380000" />
-    </task>
-    <task id="LOCAL-00219" summary="removed the ssl location from the template">
-      <created>1508348303909</created>
-      <option name="number" value="00219" />
-      <option name="presentableId" value="LOCAL-00219" />
-      <option name="project" value="LOCAL" />
-      <updated>1508348303909</updated>
+      <workItem from="1637846659613" duration="1225000" />
     </task>
     <task id="LOCAL-00220" summary="no logging on localhost if env = production">
       <created>1511117464253</created>
@@ -668,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637846780105</updated>
     </task>
-    <option name="localTasksCounter" value="268" />
+    <task id="LOCAL-00268" summary="v++">
+      <created>1637847139968</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1637847139968</updated>
+    </task>
+    <option name="localTasksCounter" value="269" />
     <servers />
   </component>
   <component name="TodoView">
@@ -706,7 +708,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="from now on ypsilon takes the root dir as the server dir, no subfolder &quot;server&quot; as the root" />
     <MESSAGE value="downgrade winston to 2.x" />
     <MESSAGE value="use winston 2.x format" />
     <MESSAGE value="add config option to set serverroot" />
@@ -731,7 +732,8 @@
     <MESSAGE value="removed logging" />
     <MESSAGE value="updated deps" />
     <MESSAGE value="remove greylog2" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove greylog2" />
+    <MESSAGE value="v++" />
+    <option name="LAST_COMMIT_MESSAGE" value="v++" />
   </component>
   <component name="masterDetails">
     <states>
