@@ -1,6 +1,6 @@
 {
   "name": "ypsilon",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A microservice oriented framework",
   "author": "Nick Meiremans",
   "dependencies": {
