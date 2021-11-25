@@ -48,7 +48,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="updated deps" />
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="updated deps">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,14 +129,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/.gitignore" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548797917199" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="8.11.2" />
-    <property name="javascript.nodejs.core.library.typings.version" value="8.10.61" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../meirenbot" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -320,6 +324,7 @@
       <workItem from="1550512153907" duration="6611000" />
       <workItem from="1594478559144" duration="868000" />
       <workItem from="1594480135478" duration="1021000" />
+      <workItem from="1637782452584" duration="903000" />
     </task>
     <task id="LOCAL-00218" summary="made certbot not interavtivce">
       <created>1508347274375</created>
