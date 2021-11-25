@@ -48,8 +48,9 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="v++">
+    <list default="true" id="7702b525-24f4-42cb-ad53-33804d9cda24" name="Default" comment="fully remove greylog">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,14 +326,7 @@
       <workItem from="1594478559144" duration="868000" />
       <workItem from="1594480135478" duration="1021000" />
       <workItem from="1637782452584" duration="903000" />
-      <workItem from="1637846659613" duration="1225000" />
-    </task>
-    <task id="LOCAL-00220" summary="no logging on localhost if env = production">
-      <created>1511117464253</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1511117464254</updated>
+      <workItem from="1637846659613" duration="1965000" />
     </task>
     <task id="LOCAL-00221" summary="greylogsettings before transport">
       <created>1511117928725</created>
@@ -670,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637847139968</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="fully remove greylog">
+      <created>1637847993372</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1637847993372</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="TodoView">
@@ -708,7 +709,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="downgrade winston to 2.x" />
     <MESSAGE value="use winston 2.x format" />
     <MESSAGE value="add config option to set serverroot" />
     <MESSAGE value="logs serverroot to console" />
@@ -733,7 +733,8 @@
     <MESSAGE value="updated deps" />
     <MESSAGE value="remove greylog2" />
     <MESSAGE value="v++" />
-    <option name="LAST_COMMIT_MESSAGE" value="v++" />
+    <MESSAGE value="fully remove greylog" />
+    <option name="LAST_COMMIT_MESSAGE" value="fully remove greylog" />
   </component>
   <component name="masterDetails">
     <states>
